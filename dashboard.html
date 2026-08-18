@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Stabhochsprung Weltbestenliste</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap');
+
+  :root{
+    --bg:#12151a;
+    --bg-panel:#1a1e26;
+    --bg-row:#181c23;
+    --bg-row-alt:#1d222a;
+    --line:#2a303b;
+    --ink:#e9ecf1;
+    --ink-dim:#8b93a3;
+    --amber:#ff8a2b;
+    --amber-dim:#ff8a2b33;
+    --u16:#4fb8e0;
+    --u18:#5fd18a;
+    --u20:#ffcf4d;
+    --sen:#ff6b6b;
+    --new:#ff8a2b;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    background:
+      radial-gradient(1200px 400px at 20% -10%, #1c2230 0%, transparent 60%),
+      var(--bg);
+    color:var(--ink);
+    font-family:'Oswald', sans-serif;
+    -webkit-font-smoothing:antialiased;
+  }
+  .mono{font-family:'JetBrains Mono', monospace;}
+
+  header{
+    padding:28px 20px 18px;
+    border-bottom:1px solid var(--line);
+    background:linear-gradient(180deg, #171b22, #12151a);
+  }
+  .eyebrow{
+    font-family:'JetBrains Mono', monospace;
+    font-size:11px;
+    letter-spacing:.18em;
+    color:var(--amber);
+    text-transform:uppercase;
+    margin-bottom:6px;
+  }
+  h1{
+    margin:0 0 4px;
+    font-weight:700;
+    font-size:26px;
+    letter-spacing:.01em;
+    text-transform:uppercase;
+  }
+  .sub{
+    color:var(--ink-dim);
+    font-size:13px;
+    font-family:'JetBrains Mono', monospace;
+  }
+  .flag{
+    display:inline-block;
+    margin-top:10px;
+    padding:5px 10px;
+    border-radius:3px;
+    font-family:'JetBrains Mono', monospace;
+    font-size:11px;
+    letter-spacing:.05em;
+  }
+  .flag.demo{ border:1px solid var(--amber-dim); background:var(--amber-dim); color:var(--amber); }
+  .flag.live{ border:1px solid #5fd18a33; background:#5fd18a1a; color:var(--u18); }
+
+  .controls{
+    padding:16px 20px;
+    display:flex;
+    flex-direction:column;
+    gap:12px;
+    background:var(--bg-panel);
+    border-bottom:1px solid var(--line);
+    position:sticky;
+    top:0;
+    z-index:10;
+  }
+  .row{display:flex; gap:8px; flex-wrap:wrap; align-items:center;}
+  .chipgroup{display:flex; gap:6px; flex-wrap:wrap;}
+  .chip{
+    font-family:'JetBrains Mono', monospace;
+    font-size:12px;
+    padding:6px 12px;
+    border-radius:999px;
+    border:1px solid var(--line);
+    background:transparent;
+    color:var(--ink-dim);
+    cursor:pointer;
+    transition:.15s;
+  }
+  .chip.active{ border-color:currentColor; }
+  .chip[data-age="u16"].active{color:var(--u16); background:#4fb8e01a;}
+  .chip[data-age="u18"].active{color:var(--u18); background:#5fd18a1a;}
+  .chip[data-age="u20"].active{color:var(--u20); background:#ffcf4d1a;}
+  .chip[data-age="senior"].active{color:var(--sen); background:#ff6b6b1a;}
+  .chip[data-gender].active{color:var(--amber); border-color:var(--amber); background:var(--amber-dim);}
+
+  select, input[type="text"]{
+    background:var(--bg-row);
+    border:1px solid var(--line);
+    color:var(--ink);
+    font-family:'JetBrains Mono', monospace;
+    font-size:12px;
+    padding:7px 10px;
+    border-radius:4px;
+    outline:none;
+  }
+  input[type="text"]{flex:1; min-width:120px;}
+  select:focus, input:focus{border-color:var(--amber);}
+
+  .meta-bar{
+    padding:10px 20px;
+    font-family:'JetBrains Mono', monospace;
+    font-size:11px;
+    color:var(--ink-dim);
+    display:flex;
+    justify-content:space-between;
+  }
+
+  table{width:100%; border-collapse:collapse;}
+  thead th{
+    text-align:left;
+    font-family:'JetBrains Mono', monospace;
+    font-size:10px;
+    letter-spacing:.1em;
+    text-transform:uppercase;
+    color:var(--ink-dim);
+    padding:8px 10px;
+    border-bottom:1px solid var(--line);
+    cursor:pointer;
+    user-select:none;
+    white-space:nowrap;
+  }
+  thead th:hover{color:var(--ink);}
+  thead th.sorted{color:var(--amber);}
+  tbody tr{border-bottom:1px solid var(--line);}
+  tbody tr:nth-child(odd){background:var(--bg-row-alt);}
+  tbody tr.is-new{box-shadow:inset 3px 0 0 var(--new);}
+  td{padding:10px; font-size:13px; vertical-align:middle;}
+  td.name{font-weight:500;}
+  td.country{color:var(--ink-dim); font-family:'JetBrains Mono', monospace; font-size:12px;}
+  td.mark{font-family:'JetBrains Mono', monospace; font-weight:700; font-size:15px;}
+  td.date{font-family:'JetBrains Mono', monospace; color:var(--ink-dim); font-size:12px; white-space:nowrap;}
+  td.venue{color:var(--ink-dim); font-size:12px;}
+
+  .badge{
+    display:inline-block;
+    font-family:'JetBrains Mono', monospace;
+    font-size:10px;
+    padding:2px 7px;
+    border-radius:3px;
+    letter-spacing:.04em;
+  }
+  .badge.u16{color:var(--u16); background:#4fb8e01a;}
+  .badge.u18{color:var(--u18); background:#5fd18a1a;}
+  .badge.u20{color:var(--u20); background:#ffcf4d1a;}
+  .badge.senior{color:var(--sen); background:#ff6b6b1a;}
+  .newtag{
+    margin-left:6px;
+    color:var(--new);
+    font-size:10px;
+    font-family:'JetBrains Mono', monospace;
+    letter-spacing:.05em;
+  }
+
+  .barwrap{
+    position:relative;
+    width:64px;
+    height:6px;
+    background:var(--line);
+    border-radius:3px;
+    margin-top:5px;
+    overflow:hidden;
+  }
+  .barfill{
+    position:absolute; left:0; top:0; bottom:0;
+    background:var(--amber);
+    border-radius:3px;
+  }
+
+  .empty{
+    padding:40px 20px;
+    text-align:center;
+    color:var(--ink-dim);
+    font-family:'JetBrains Mono', monospace;
+    font-size:13px;
+  }
+
+  footer{
+    padding:16px 20px 30px;
+    color:var(--ink-dim);
+    font-family:'JetBrains Mono', monospace;
+    font-size:11px;
+    border-top:1px solid var(--line);
+    line-height:1.6;
+  }
+
+  @media (max-width:520px){
+    td.venue{display:none;}
+    thead th:nth-child(6){display:none;}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="eyebrow">Weltbestenliste · Stabhochsprung</div>
+  <h1>Bar Clearance Board</h1>
+  <div class="sub">Aktualisiert wöchentlich · sortiert nach letzter Leistung</div>
+  <div id="dataFlag" class="flag demo">Lade Daten…</div>
+</header>
+
+<div class="controls">
+  <div class="row">
+    <div class="chipgroup" id="ageFilters">
+      <button class="chip" data-age="u16">U16</button>
+      <button class="chip" data-age="u18">U18</button>
+      <button class="chip" data-age="u20">U20</button>
+      <button class="chip" data-age="senior">Erwachsene</button>
+    </div>
+    <div class="chipgroup" id="genderFilters">
+      <button class="chip" data-gender="m">Männer</button>
+      <button class="chip" data-gender="w">Frauen</button>
+    </div>
+  </div>
+  <div class="row">
+    <select id="countryFilter"><option value="">Alle Länder</option></select>
+    <input type="text" id="searchBox" placeholder="Name suchen…">
+  </div>
+</div>
+
+<div class="meta-bar">
+  <span id="resultCount"></span>
+  <span>sortiert nach: <span id="sortLabel" class="mono">Datum ↓</span></span>
+</div>
+
+<table>
+  <thead>
+    <tr>
+      <th data-key="mark">Leistung</th>
+      <th data-key="name">Athlet:in</th>
+      <th data-key="country">Land</th>
+      <th data-key="ageClass">Klasse</th>
+      <th data-key="date" class="sorted">Datum</th>
+      <th data-key="venue">Ort</th>
+    </tr>
+  </thead>
+  <tbody id="tableBody"></tbody>
+</table>
+<div class="empty" id="emptyState" style="display:none;">Keine Ergebnisse für diese Filterkombination.</div>
+
+<footer>
+  Datenquelle: worldathletics.org Toplists (U18 / U20 / Erwachsene), aktualisiert durch den wöchentlichen Scraper.
+  U16 ist auf World Athletics nicht gelistet und daher hier nicht enthalten (siehe ANLEITUNG.md, Abschnitt "Erweiterungen").
+</footer>
+
+<script>
+// ---- Demo-Daten: nur Fallback, falls data.json (noch) nicht existiert ----
+const DEMO_DATA = [
+  {name:"Armand Duplantis", country:"SWE", gender:"m", ageClass:"senior", mark:6.31, unit:"m", date:"2026-03-12", venue:"Uppsala (SWE)", isNew:false},
+  {name:"Molly Haywood", country:"USA", gender:"w", ageClass:"u20", mark:4.61, unit:"m", date:"2026-06-02", venue:"Lubbock (USA)", isNew:false},
+  {name:"Hendrik Müller", country:"GER", gender:"m", ageClass:"u20", mark:5.55, unit:"m", date:"2026-07-19", venue:"Ulm (GER)", isNew:true},
+  {name:"Zackaria Dia", country:"FRA", gender:"m", ageClass:"u18", mark:5.82, unit:"m", date:"2026-06-13", venue:"Pierre-Bénite (FRA)", isNew:false},
+  {name:"Robert Kompus", country:"EST", gender:"m", ageClass:"u18", mark:5.65, unit:"m", date:"2026-02-08", venue:"Dortmund (GER)", isNew:false},
+  {name:"Torben Blech", country:"GER", gender:"m", ageClass:"senior", mark:5.70, unit:"m", date:"2026-01-28", venue:"Cottbus (GER)", isNew:false},
+  {name:"Bo Kanda Lita Baehre", country:"GER", gender:"m", ageClass:"senior", mark:5.90, unit:"m", date:"2026-07-16", venue:"Madrid (ESP)", isNew:true},
+];
+
+let DATA = [];
+let MAX_MARK = 1;
+const state = { ages:new Set(), genders:new Set(), country:"", search:"", sortKey:"date", sortDir:-1 };
+
+function ageLabel(k){
+  return {u16:"U16", u18:"U18", u20:"U20", senior:"Erwachsene"}[k] || k;
+}
+
+function populateCountries(){
+  const sel = document.getElementById("countryFilter");
+  sel.innerHTML = '<option value="">Alle Länder</option>';
+  const countries = [...new Set(DATA.map(d=>d.country))].sort();
+  countries.forEach(c=>{
+    const opt = document.createElement("option");
+    opt.value = c; opt.textContent = c;
+    sel.appendChild(opt);
+  });
+}
+
+function applyFilters(){
+  return DATA.filter(d=>{
+    if(state.ages.size && !state.ages.has(d.ageClass)) return false;
+    if(state.genders.size && !state.genders.has(d.gender)) return false;
+    if(state.country && d.country !== state.country) return false;
+    if(state.search && !d.name.toLowerCase().includes(state.search.toLowerCase())) return false;
+    return true;
+  });
+}
+
+function sortRows(rows){
+  return rows.sort((a,b)=>{
+    let av=a[state.sortKey], bv=b[state.sortKey];
+    if(state.sortKey==="date"){ av=new Date(av); bv=new Date(bv); }
+    if(av<bv) return -1*state.sortDir;
+    if(av>bv) return 1*state.sortDir;
+    return 0;
+  });
+}
+
+function render(){
+  const rows = sortRows(applyFilters());
+  const tbody = document.getElementById("tableBody");
+  tbody.innerHTML = "";
+  document.getElementById("resultCount").textContent = `${rows.length} Ergebnis${rows.length===1?"":"se"}`;
+  document.getElementById("emptyState").style.display = rows.length ? "none" : "block";
+
+  rows.forEach(d=>{
+    const tr = document.createElement("tr");
+    if(d.isNew) tr.classList.add("is-new");
+    const pct = Math.max(4, Math.round((d.mark/MAX_MARK)*100));
+    const dateFmt = new Date(d.date).toLocaleDateString("de-DE",{day:"2-digit",month:"short",year:"numeric"});
+
+    tr.innerHTML = `
+      <td class="mark">${d.mark.toFixed(2)}&nbsp;${d.unit}
+        <div class="barwrap"><div class="barfill" style="width:${pct}%"></div></div>
+      </td>
+      <td class="name">${d.name}${d.isNew?'<span class="newtag">● NEU</span>':''}</td>
+      <td class="country">${d.country}</td>
+      <td><span class="badge ${d.ageClass}">${ageLabel(d.ageClass)}</span></td>
+      <td class="date">${dateFmt}</td>
+      <td class="venue">${d.venue||""}</td>
+    `;
+    tbody.appendChild(tr);
+  });
+}
+
+function wireControls(){
+  document.querySelectorAll('#ageFilters .chip').forEach(btn=>{
+    btn.addEventListener('click', ()=>{
+      const v = btn.dataset.age;
+      btn.classList.toggle('active');
+      state.ages.has(v) ? state.ages.delete(v) : state.ages.add(v);
+      render();
+    });
+  });
+  document.querySelectorAll('#genderFilters .chip').forEach(btn=>{
+    btn.addEventListener('click', ()=>{
+      const v = btn.dataset.gender;
+      btn.classList.toggle('active');
+      state.genders.has(v) ? state.genders.delete(v) : state.genders.add(v);
+      render();
+    });
+  });
+  document.getElementById('countryFilter').addEventListener('change', e=>{
+    state.country = e.target.value; render();
+  });
+  document.getElementById('searchBox').addEventListener('input', e=>{
+    state.search = e.target.value; render();
+  });
+  document.querySelectorAll('thead th').forEach(th=>{
+    th.addEventListener('click', ()=>{
+      const key = th.dataset.key;
+      if(state.sortKey===key){ state.sortDir *= -1; }
+      else { state.sortKey = key; state.sortDir = key==="date" ? -1 : 1; }
+      document.querySelectorAll('thead th').forEach(t=>t.classList.remove('sorted'));
+      th.classList.add('sorted');
+      document.getElementById('sortLabel').textContent =
+        {mark:"Leistung", name:"Name", country:"Land", ageClass:"Klasse", date:"Datum", venue:"Ort"}[key]
+        + (state.sortDir===1 ? " ↑" : " ↓");
+      render();
+    });
+  });
+}
+
+async function init(){
+  const flag = document.getElementById("dataFlag");
+  try{
+    const res = await fetch("data.json", {cache:"no-store"});
+    if(!res.ok) throw new Error("data.json nicht gefunden");
+    const json = await res.json();
+    DATA = json.entries || json;
+    flag.textContent = "Live-Daten" + (json.generatedAt ? " · Stand: " + json.generatedAt : "");
+    flag.classList.remove("demo"); flag.classList.add("live");
+  }catch(e){
+    DATA = DEMO_DATA;
+    flag.textContent = "⚠ Demo-Daten — data.json nicht gefunden (siehe ANLEITUNG.md)";
+  }
+  MAX_MARK = Math.max(...DATA.map(d=>d.mark), 1);
+  populateCountries();
+  wireControls();
+  render();
+}
+
+init();
+</script>
+</body>
+</html>
