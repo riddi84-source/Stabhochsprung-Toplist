@@ -114,16 +114,17 @@ async def run(year: int | None = None):
 
     all_results = mark_new_entries(all_results, previous)
 
-    # aktuelle data.json (falls vorhanden) wird zur neuen previous_data.json,
-    # BEVOR sie überschrieben wird
-    if DATA_FILE.exists():
-        PREVIOUS_FILE.write_text(DATA_FILE.read_text(encoding="utf-8"), encoding="utf-8")
-
     output = {
         "generatedAt": datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC"),
         "entries": all_results,
     }
     DATA_FILE.write_text(json.dumps(output, ensure_ascii=False, indent=2), encoding="utf-8")
+
+    # previous_data.json wird JETZT auf den Stand von heute gesetzt, damit sie beim
+    # naechsten Lauf (naechste Woche) als Vergleichsbasis existiert. So muss der
+    # Workflow nie pruefen, ob die Datei schon existiert -- sie ist nach jedem
+    # erfolgreichen Lauf garantiert vorhanden.
+    PREVIOUS_FILE.write_text(json.dumps(output, ensure_ascii=False, indent=2), encoding="utf-8")
 
     new_count = sum(1 for e in all_results if e["isNew"])
     print(f"\nFertig: {len(all_results)} Einträge gesamt, davon {new_count} neu seit letzter Woche.")
