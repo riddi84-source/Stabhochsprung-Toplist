@@ -1,0 +1,63 @@
+name: Wöchentliches Stabhochsprung-Update
+
+# Läuft automatisch jeden Montag um 06:00 UTC.
+# Zeit anpassen: https://crontab.guru hilft beim cron-Syntax.
+# Zusätzlich manuell startbar über den "Run workflow"-Button (workflow_dispatch),
+# praktisch zum Testen.
+on:
+  schedule:
+    - cron: "0 6 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Repository auschecken
+        uses: actions/checkout@v4
+
+      - name: Python einrichten
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Abhängigkeiten installieren
+        run: |
+          pip install playwright
+          playwright install --with-deps chromium
+
+      - name: Scraper ausführen
+        run: python scraper.py
+
+      - name: Änderungen committen
+        run: |
+          git config user.name "stabhochsprung-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data.json previous_data.json
+          git diff --quiet --cached || git commit -m "Wöchentliches Update: $(date +'%Y-%m-%d')"
+          git push
+
+      # E-Mail-Versand: nutzt die Secrets, die du in den Repo-Einstellungen hinterlegst
+      # (siehe ANLEITUNG.md, Schritt 5). Ohne diese Secrets schlägt nur dieser Schritt fehl,
+      # der Rest (Dashboard-Update) funktioniert trotzdem.
+      - name: Benachrichtigung per E-Mail
+        if: always()
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: smtp.gmail.com
+          server_port: 465
+          username: ${{ secrets.MAIL_USERNAME }}
+          password: ${{ secrets.MAIL_PASSWORD }}
+          subject: "Stabhochsprung-Weltbestenliste: wöchentliches Update"
+          to: ${{ secrets.MAIL_TO }}
+          from: "Stabhochsprung Dashboard"
+          body: |
+            Das wöchentliche Update ist da.
+
+            Dashboard ansehen (mit Filtern nach Land/Altersklasse):
+            https://DEIN-GITHUB-NAME.github.io/DEIN-REPO-NAME/dashboard.html
+
+            (Diese Zeile mit deinem tatsächlichen Link ersetzen, siehe ANLEITUNG.md Schritt 4.)
