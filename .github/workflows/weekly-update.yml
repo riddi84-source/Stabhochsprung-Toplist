@@ -36,7 +36,7 @@ jobs:
         run: |
           git config user.name "stabhochsprung-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add data.json previous_data.json
+          git add data.json if [ -f previous_data.json ] ; then git add previous_data.json; fi 
           git diff --quiet --cached || git commit -m "Wöchentliches Update: $(date +'%Y-%m-%d')"
           git push
 
