@@ -40,7 +40,7 @@ GENDERS = {"m": "men", "w": "women"}
 
 # Wie viele Seiten der absoluten Bestenliste pro Geschlecht durchblaettert werden.
 # Jede Seite enthaelt ca. 100 Eintraege. Hoeher = mehr U18/U20-Tiefe, aber laenger.
-PAGES_TO_FETCH = 15
+PAGES_TO_FETCH = 38
 
 DATA_FILE = Path("data.json")
 PREVIOUS_FILE = Path("previous_data.json")
