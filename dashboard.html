@@ -205,7 +205,9 @@
 
   @media (max-width:520px){
     td.venue{display:none;}
-    thead th:nth-child(6){display:none;}
+    thead th:nth-child(7){display:none;}
+    td.date:nth-child(5){display:none;}
+    thead th:nth-child(5){display:none;}
   }
 </style>
 </head>
@@ -249,6 +251,7 @@
       <th data-key="name">Athlet:in</th>
       <th data-key="country">Land</th>
       <th data-key="ageClass">Klasse</th>
+      <th data-key="dob">Jahrgang</th>
       <th data-key="date" class="sorted">Datum</th>
       <th data-key="venue">Ort</th>
     </tr>
@@ -333,6 +336,7 @@ function render(){
       <td class="name">${d.name}${d.isNew?'<span class="newtag">● NEU</span>':''}</td>
       <td class="country">${d.country}</td>
       <td><span class="badge ${d.ageClass}">${ageLabel(d.ageClass)}</span></td>
+      <td class="date">${d.dob ? new Date(d.dob).getFullYear() : "–"}</td>
       <td class="date">${dateFmt}</td>
       <td class="venue">${d.venue||""}</td>
     `;
@@ -371,7 +375,7 @@ function wireControls(){
       document.querySelectorAll('thead th').forEach(t=>t.classList.remove('sorted'));
       th.classList.add('sorted');
       document.getElementById('sortLabel').textContent =
-        {mark:"Leistung", name:"Name", country:"Land", ageClass:"Klasse", date:"Datum", venue:"Ort"}[key]
+        {mark:"Leistung", name:"Name", country:"Land", ageClass:"Klasse", dob:"Jahrgang", date:"Datum", venue:"Ort"}[key]
         + (state.sortDir===1 ? " ↑" : " ↓");
       render();
     });
