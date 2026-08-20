@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-20 07:46 UTC",
+  "generatedAt": "2026-08-20 07:49 UTC",
   "entries": [
     {
       "name": "Armand DUPLANTIS",
@@ -3563,7 +3563,7 @@
       "unit": "m",
       "date": "2026-08-19",
       "venue": "Leppävaaran Stadion, Espoo (FIN)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Anna WILLIS",
@@ -4663,7 +4663,7 @@
       "unit": "m",
       "date": "2026-08-19",
       "venue": "Leppävaaran Stadion, Espoo (FIN)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Anna WILLIS",
@@ -5763,7 +5763,7 @@
       "unit": "m",
       "date": "2026-08-19",
       "venue": "Leppävaaran Stadion, Espoo (FIN)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Anna WILLIS",
