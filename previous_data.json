@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19 18:16 UTC",
+  "generatedAt": "2026-08-20 07:46 UTC",
   "entries": [
     {
       "name": "Armand DUPLANTIS",
@@ -10,7 +10,7 @@
       "unit": "m",
       "date": "2026-03-12",
       "venue": "IFU Arena, Uppsala (SWE) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Emmanouil KARALIS",
@@ -21,7 +21,7 @@
       "unit": "m",
       "date": "2026-02-28",
       "venue": "Olympic Sports Complex of Paiania, Athina (GRE) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Sondre GUTTORMSEN",
@@ -32,7 +32,7 @@
       "unit": "m",
       "date": "2026-03-07",
       "venue": "Complexe Kindarena, Rouen (FRA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Matvei VOLKOV",
@@ -43,7 +43,7 @@
       "unit": "m",
       "date": "2026-02-20",
       "venue": "Olimpiyets Arena, Mogilyov (BLR) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Zachery BRADFORD",
@@ -54,7 +54,7 @@
       "unit": "m",
       "date": "2026-02-28",
       "venue": "Ocean Breeze Athl. Complex, New York, NY (USA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Kurtis MARSCHALL",
@@ -65,7 +65,7 @@
       "unit": "m",
       "date": "2026-02-22",
       "venue": "Maison des Sports, Clermont-Ferrand (FRA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Sam KENDRICKS",
@@ -76,7 +76,7 @@
       "unit": "m",
       "date": "2026-07-18",
       "venue": "Olympic Stadium, London (GBR)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Baptiste THIERY",
@@ -87,7 +87,7 @@
       "unit": "m",
       "date": "2026-06-28",
       "venue": "Stade Charléty, Paris (FRA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Christopher NILSEN",
@@ -98,7 +98,7 @@
       "unit": "m",
       "date": "2026-06-19",
       "venue": "Suhaim bin Hamad Stadium, Doha (QAT)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "KC LIGHTFOOT",
@@ -109,7 +109,7 @@
       "unit": "m",
       "date": "2026-02-07",
       "venue": "Randal Tyson Indoor Center, Fayetteville, AR (USA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Thibaut COLLET",
@@ -120,7 +120,7 @@
       "unit": "m",
       "date": "2026-07-05",
       "venue": "Pl. Panathinaikou Stadiou, Athina (GRE)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Ernest John OBIENA",
@@ -131,7 +131,7 @@
       "unit": "m",
       "date": "2026-08-17",
       "venue": "Promenada Gwiazd, Miedzyzdroje (POL)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Bo Kanda LITA BAEHRE",
@@ -142,7 +142,7 @@
       "unit": "m",
       "date": "2026-07-16",
       "venue": "Estadio Vallehermoso, Madrid (ESP)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Mikhail SHMYKOV",
@@ -153,7 +153,7 @@
       "unit": "m",
       "date": "2026-03-01",
       "venue": "Spartak Stadium, Yuzhno-Sakhalinsk (RUS) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Chenyang LI",
@@ -164,7 +164,7 @@
       "unit": "m",
       "date": "2026-03-25",
       "venue": "Shanghai Sports University Indoor Athletics Stadium, Shanghai (CHN) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Menno VLOON",
@@ -175,7 +175,7 @@
       "unit": "m",
       "date": "2026-03-21",
       "venue": "Kujawsko-Pomorska Arena, Toruń (POL) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Dyson WICKER",
@@ -186,7 +186,7 @@
       "unit": "m",
       "date": "2026-06-10",
       "venue": "Hayward Field, Eugene, OR (USA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Pedro BUARÓ",
@@ -197,7 +197,7 @@
       "unit": "m",
       "date": "2026-07-16",
       "venue": "Estadio Vallehermoso, Madrid (ESP)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Matthew GRAY",
@@ -208,7 +208,7 @@
       "unit": "m",
       "date": "2026-05-15",
       "venue": "Jaguar Track, Mobile, AL (USA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Robin EMIG",
@@ -219,7 +219,7 @@
       "unit": "m",
       "date": "2026-07-04",
       "venue": "Stade de Vongy, Thonon-les-Bains (FRA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Seifeldin ABDELSALAM",
@@ -230,7 +230,7 @@
       "unit": "m",
       "date": "2026-08-05",
       "venue": "Stadion, Jockgrim (GER)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Jimmy RHOADS",
@@ -241,7 +241,7 @@
       "unit": "m",
       "date": "2026-01-16",
       "venue": "Dempsey Indoor, Seattle, WA (USA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Ashton BARKDULL",
@@ -252,7 +252,7 @@
       "unit": "m",
       "date": "2026-05-08",
       "venue": "Cessna Stadium, Wichita, KS (USA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Anthony AMMIRATI",
@@ -263,7 +263,7 @@
       "unit": "m",
       "date": "2026-06-13",
       "venue": "Stade Christian Plaziat, Pierre-Bénite (FRA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Zackaria DIA",
@@ -274,7 +274,7 @@
       "unit": "m",
       "date": "2026-06-13",
       "venue": "Stade Christian Plaziat, Pierre-Bénite (FRA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Mathieu COLLET",
@@ -285,7 +285,7 @@
       "unit": "m",
       "date": "2026-07-26",
       "venue": "Stadium Municipal, Albi (FRA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Olen Tray OATES",
@@ -296,7 +296,7 @@
       "unit": "m",
       "date": "2026-02-13",
       "venue": "Convention Center, Albuquerque, NM (USA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Anthony MEACHAM",
@@ -307,7 +307,7 @@
       "unit": "m",
       "date": "2026-05-02",
       "venue": "Rock Chalk Park, Lawrence, KS (USA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Austin MILLER",
@@ -318,7 +318,7 @@
       "unit": "m",
       "date": "2026-06-28",
       "venue": "Alfonso Galvis Duque Stadium, Medellín (COL)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Ersu ŞAŞMA",
@@ -329,7 +329,7 @@
       "unit": "m",
       "date": "2026-07-05",
       "venue": "Pl. Panathinaikou Stadiou, Athina (GRE)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Simen GUTTORMSEN",
@@ -340,7 +340,7 @@
       "unit": "m",
       "date": "2026-02-22",
       "venue": "Arena Toruń, Toruń (POL) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Ethan CORMONT",
@@ -351,7 +351,7 @@
       "unit": "m",
       "date": "2026-02-22",
       "venue": "Maison des Sports, Clermont-Ferrand (FRA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Aleksandr SOLOVYOV",
@@ -362,7 +362,7 @@
       "unit": "m",
       "date": "2026-03-14",
       "venue": "Randal Tyson Indoor Center, Fayetteville, AR (USA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Valters KREIŠS",
@@ -373,7 +373,7 @@
       "unit": "m",
       "date": "2026-05-19",
       "venue": "Jāņa Daliņa Stadium, Valmiera (LAT)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Cole WALSH",
@@ -384,7 +384,7 @@
       "unit": "m",
       "date": "2026-02-08",
       "venue": "Europahalle, Karlsruhe (GER) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Ismaila SAWANEH",
@@ -395,7 +395,7 @@
       "unit": "m",
       "date": "2026-02-27",
       "venue": "R.A. \"Murray\" Fasken Indoor Track Stadium, College Station, TX (USA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "David HOLÝ",
@@ -406,7 +406,7 @@
       "unit": "m",
       "date": "2026-02-28",
       "venue": "Atletická hala, Ostrava (CZE) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Nate RICHARTZ",
@@ -417,7 +417,7 @@
       "unit": "m",
       "date": "2026-01-24",
       "venue": "Convention Center, Albuquerque, NM (USA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Bradley JELMERT",
@@ -428,7 +428,7 @@
       "unit": "m",
       "date": "2026-01-24",
       "venue": "Convention Center, Albuquerque, NM (USA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Hunter GARRETSON",
@@ -439,7 +439,7 @@
       "unit": "m",
       "date": "2026-01-31",
       "venue": "Loftus Sports Center, Notre Dame, IN (USA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Mathis PROD HOMME",
@@ -450,7 +450,7 @@
       "unit": "m",
       "date": "2026-02-21",
       "venue": "Maison des Sports, Clermont-Ferrand (FRA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Valentin LAVILLENIE",
@@ -461,7 +461,7 @@
       "unit": "m",
       "date": "2026-03-01",
       "venue": "Stadium Jean-Pellez, Aubière (FRA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Piotr LISEK",
@@ -472,7 +472,7 @@
       "unit": "m",
       "date": "2026-05-24",
       "venue": "Centrum Animacji Kultury, Duszniki (POL)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Logan HAMMER",
@@ -483,7 +483,7 @@
       "unit": "m",
       "date": "2026-06-10",
       "venue": "Hayward Field, Eugene, OR (USA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Ben BROEDERS",
@@ -494,7 +494,7 @@
       "unit": "m",
       "date": "2026-07-26",
       "venue": "Atletiekarena Gaston Roelants, Kessel-Lo (BEL)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Henri APRI",
@@ -505,7 +505,7 @@
       "unit": "m",
       "date": "2026-08-09",
       "venue": "Hayward Field, Eugene, OR (USA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Cade GRAY",
@@ -516,7 +516,7 @@
       "unit": "m",
       "date": "2026-02-27",
       "venue": "R.A. \"Murray\" Fasken Indoor Track Stadium, College Station, TX (USA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Conner MCCLURE",
@@ -527,7 +527,7 @@
       "unit": "m",
       "date": "2026-01-24",
       "venue": "Rector Fieldhouse, Blacksburg, VA (USA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Owen HEARD",
@@ -538,7 +538,7 @@
       "unit": "m",
       "date": "2026-03-08",
       "venue": "Loughborough University Indoor Track, Loughborough (GBR) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Christyan SAMPY",
@@ -549,7 +549,7 @@
       "unit": "m",
       "date": "2026-04-29",
       "venue": "Carl Lewis TF and Soccer Complex, Houston, TX (USA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Oleksandr ONUFRIYEV",
@@ -560,7 +560,7 @@
       "unit": "m",
       "date": "2026-01-28",
       "venue": "Lausitz-Arena, Cottbus (GER) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Torben BLECH",
@@ -571,7 +571,7 @@
       "unit": "m",
       "date": "2026-01-28",
       "venue": "Lausitz-Arena, Cottbus (GER) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Cody JOHNSTON",
@@ -582,7 +582,7 @@
       "unit": "m",
       "date": "2026-02-13",
       "venue": "Randal Tyson Indoor Center, Fayetteville, AR (USA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Dmitriy KACHANOV",
@@ -593,7 +593,7 @@
       "unit": "m",
       "date": "2026-03-01",
       "venue": "Spartak Stadium, Yuzhno-Sakhalinsk (RUS) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Ricardo David MONTES",
@@ -604,7 +604,7 @@
       "unit": "m",
       "date": "2026-04-09",
       "venue": "Cushing Stadium, College Station, TX (USA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Bryce BARKDULL",
@@ -615,7 +615,7 @@
       "unit": "m",
       "date": "2026-04-18",
       "venue": "Jack Rose Track, Long Beach, CA (USA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Hussain Asim AL HIZAM",
@@ -626,7 +626,7 @@
       "unit": "m",
       "date": "2026-04-24",
       "venue": "John McDonnell Field, Fayetteville, AR (USA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Bokai HUANG",
@@ -637,7 +637,7 @@
       "unit": "m",
       "date": "2026-05-16",
       "venue": "China Textile City Sports Centre, Shaoxing/Keqiao (CHN)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Clayton SIMMS",
@@ -648,7 +648,7 @@
       "unit": "m",
       "date": "2026-06-06",
       "venue": "Cushing Stadium, College Station, TX (USA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Ioannis RIZOS",
@@ -659,7 +659,7 @@
       "unit": "m",
       "date": "2026-06-06",
       "venue": "G-Town Track, Gräfelfing (GER)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Renaud LAVILLENIE",
@@ -670,7 +670,7 @@
       "unit": "m",
       "date": "2026-06-07",
       "venue": "Olympiastadion, Stockholm (SWE)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Matthias ORBAN",
@@ -681,7 +681,7 @@
       "unit": "m",
       "date": "2026-06-13",
       "venue": "Stade Christian Plaziat, Pierre-Bénite (FRA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Jie YAO",
@@ -692,7 +692,7 @@
       "unit": "m",
       "date": "2026-06-27",
       "venue": "Kuishan Sports Center, Rizhao (CHN)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "William ASKER",
@@ -703,7 +703,7 @@
       "unit": "m",
       "date": "2026-07-11",
       "venue": "Åby Friidrott, Mölndal (SWE)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Ylio PHILTJENS",
@@ -714,7 +714,7 @@
       "unit": "m",
       "date": "2026-07-19",
       "venue": "Stade Lucien Gustin, Hannut (BEL)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Kyle RADEMEYER",
@@ -725,7 +725,7 @@
       "unit": "m",
       "date": "2026-08-01",
       "venue": "Scotstoun Stadium, Glasgow (GBR)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Matt LUDWIG",
@@ -736,7 +736,7 @@
       "unit": "m",
       "date": "2026-08-05",
       "venue": "Stadion, Jockgrim (GER)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Juho ALASAARI",
@@ -747,7 +747,7 @@
       "unit": "m",
       "date": "2026-07-12",
       "venue": "Ratinan Stadion, Tampere (FIN)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Tomoya KARASAWA",
@@ -758,7 +758,7 @@
       "unit": "m",
       "date": "2026-05-16",
       "venue": "ND Soft Stadium, Tendo (JPN)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Matteo OLIVERI",
@@ -769,7 +769,7 @@
       "unit": "m",
       "date": "2026-07-15",
       "venue": "Province Naimette Arena, Liège (BEL)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Robert KOMPUS",
@@ -780,7 +780,7 @@
       "unit": "m",
       "date": "2026-02-08",
       "venue": "Helmut-Körnig-Halle, Dortmund (GER) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Kevin O'SULLIVAN",
@@ -791,7 +791,7 @@
       "unit": "m",
       "date": "2026-02-13",
       "venue": "Randal Tyson Indoor Center, Fayetteville, AR (USA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Ranel SHAFIKOV",
@@ -802,7 +802,7 @@
       "unit": "m",
       "date": "2026-03-08",
       "venue": "MGSU Sports Arena, Moskva (RUS) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Carson Cody WATERS",
@@ -813,7 +813,7 @@
       "unit": "m",
       "date": "2026-04-11",
       "venue": "Mercato,9110 Strada Pl, Naples, FL (USA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Chris JOHNSON",
@@ -824,7 +824,7 @@
       "unit": "m",
       "date": "2026-04-11",
       "venue": "Mercato,9110 Strada Pl, Naples, FL (USA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Tyler CARREL",
@@ -835,7 +835,7 @@
       "unit": "m",
       "date": "2026-05-08",
       "venue": "Billy Hayes T& F Complex, Bloomington, IN (USA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Timur MORGUNOV",
@@ -846,7 +846,7 @@
       "unit": "m",
       "date": "2026-07-23",
       "venue": "Kalininets Stadium, Yekaterinburg (RUS)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Blake SIFFERLIN",
@@ -857,7 +857,7 @@
       "unit": "m",
       "date": "2026-02-15",
       "venue": "Rector Fieldhouse, Blacksburg, VA (USA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Artur COLL",
@@ -868,7 +868,7 @@
       "unit": "m",
       "date": "2026-02-07",
       "venue": "Stabinski Velodrome, Roubaix (FRA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Simone BERTELLI",
@@ -879,7 +879,7 @@
       "unit": "m",
       "date": "2026-02-28",
       "venue": "Palaindoor Ancona, Ancona (ITA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Brian O'SULLIVAN",
@@ -890,7 +890,7 @@
       "unit": "m",
       "date": "2026-02-28",
       "venue": "Fall Creek Pavilion, Indianapolis, IN (USA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Márton BÖNDÖR",
@@ -901,7 +901,7 @@
       "unit": "m",
       "date": "2026-01-31",
       "venue": "Palais des Sports Caen la Mer, Caen (FRA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Tristan DESPRES",
@@ -912,7 +912,7 @@
       "unit": "m",
       "date": "2026-01-31",
       "venue": "Palais des Sports Caen la Mer, Caen (FRA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Trevor STEPHENSON",
@@ -923,7 +923,7 @@
       "unit": "m",
       "date": "2026-04-23",
       "venue": "Cardinal Park, Louisville, KY (USA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Jacob WOOTEN",
@@ -934,7 +934,7 @@
       "unit": "m",
       "date": "2026-04-24",
       "venue": "Drake Stadium, Des Moines, IA (USA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Gillian LADWIG",
@@ -945,7 +945,7 @@
       "unit": "m",
       "date": "2026-05-29",
       "venue": "Altstadtmarkt, Recklinghausen (GER)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Oliver SANDBERG",
@@ -956,7 +956,7 @@
       "unit": "m",
       "date": "2026-05-29",
       "venue": "Altstadtmarkt, Recklinghausen (GER)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Ivan Geronimo ŠERIĆ",
@@ -967,7 +967,7 @@
       "unit": "m",
       "date": "2026-03-01",
       "venue": "Velesajam Hall, Zagreb (CRO) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Keaton DANIEL",
@@ -978,7 +978,7 @@
       "unit": "m",
       "date": "2026-04-10",
       "venue": "Tom Black Track at LaPorte Stadium, Knoxville, TN (USA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Scott TONEY",
@@ -989,7 +989,7 @@
       "unit": "m",
       "date": "2026-01-30",
       "venue": "Dempsey Indoor, Seattle, WA (USA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Shane BAGLEY",
@@ -1000,7 +1000,7 @@
       "unit": "m",
       "date": "2026-04-04",
       "venue": "Cobb Track and Angell Field, Palo Alto, CA (USA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Masaki EJIMA",
@@ -1011,7 +1011,7 @@
       "unit": "m",
       "date": "2026-05-10",
       "venue": "Yanmar Stadium Nagai, Osaka (JPN)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Nikolai VAN HUYSSTEEN",
@@ -1022,7 +1022,7 @@
       "unit": "m",
       "date": "2026-05-15",
       "venue": "Hutsell-Rosen Track, Auburn, AL (USA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Patsapong AMSAM-ANG",
@@ -1033,7 +1033,7 @@
       "unit": "m",
       "date": "2026-05-30",
       "venue": "Gwangalli beach, Busan (KOR)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Yang CHEN",
@@ -1044,7 +1044,7 @@
       "unit": "m",
       "date": "2026-05-30",
       "venue": "Sports Center, Bengbu (CHN)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Tao ZHONG",
@@ -1055,7 +1055,7 @@
       "unit": "m",
       "date": "2026-06-04",
       "venue": "Sports Center, Nanping (CHN)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Stepan KEKIN",
@@ -1066,7 +1066,7 @@
       "unit": "m",
       "date": "2026-06-07",
       "venue": "Vorobyevi Gory, Moskva (RUS)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Maddox HAMM",
@@ -1077,7 +1077,7 @@
       "unit": "m",
       "date": "2026-06-10",
       "venue": "Hayward Field, Eugene, OR (USA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Dan BÁRTA",
@@ -1088,7 +1088,7 @@
       "unit": "m",
       "date": "2026-06-27",
       "venue": "Altstadt, Hof (GER)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Theo DEROBERT",
@@ -1099,7 +1099,7 @@
       "unit": "m",
       "date": "2026-07-04",
       "venue": "Stade de Vongy, Thonon-les-Bains (FRA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Armand DUPLANTIS",
@@ -1110,7 +1110,7 @@
       "unit": "m",
       "date": "2026-03-12",
       "venue": "IFU Arena, Uppsala (SWE) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Emmanouil KARALIS",
@@ -1121,7 +1121,7 @@
       "unit": "m",
       "date": "2026-02-28",
       "venue": "Olympic Sports Complex of Paiania, Athina (GRE) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Sondre GUTTORMSEN",
@@ -1132,7 +1132,7 @@
       "unit": "m",
       "date": "2026-03-07",
       "venue": "Complexe Kindarena, Rouen (FRA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Matvei VOLKOV",
@@ -1143,7 +1143,7 @@
       "unit": "m",
       "date": "2026-02-20",
       "venue": "Olimpiyets Arena, Mogilyov (BLR) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Zachery BRADFORD",
@@ -1154,7 +1154,7 @@
       "unit": "m",
       "date": "2026-02-28",
       "venue": "Ocean Breeze Athl. Complex, New York, NY (USA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Kurtis MARSCHALL",
@@ -1165,7 +1165,7 @@
       "unit": "m",
       "date": "2026-02-22",
       "venue": "Maison des Sports, Clermont-Ferrand (FRA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Sam KENDRICKS",
@@ -1176,7 +1176,7 @@
       "unit": "m",
       "date": "2026-07-18",
       "venue": "Olympic Stadium, London (GBR)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Baptiste THIERY",
@@ -1187,7 +1187,7 @@
       "unit": "m",
       "date": "2026-06-28",
       "venue": "Stade Charléty, Paris (FRA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Christopher NILSEN",
@@ -1198,7 +1198,7 @@
       "unit": "m",
       "date": "2026-06-19",
       "venue": "Suhaim bin Hamad Stadium, Doha (QAT)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "KC LIGHTFOOT",
@@ -1209,7 +1209,7 @@
       "unit": "m",
       "date": "2026-02-07",
       "venue": "Randal Tyson Indoor Center, Fayetteville, AR (USA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Thibaut COLLET",
@@ -1220,7 +1220,7 @@
       "unit": "m",
       "date": "2026-07-05",
       "venue": "Pl. Panathinaikou Stadiou, Athina (GRE)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Ernest John OBIENA",
@@ -1231,7 +1231,7 @@
       "unit": "m",
       "date": "2026-08-17",
       "venue": "Promenada Gwiazd, Miedzyzdroje (POL)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Bo Kanda LITA BAEHRE",
@@ -1242,7 +1242,7 @@
       "unit": "m",
       "date": "2026-07-16",
       "venue": "Estadio Vallehermoso, Madrid (ESP)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Mikhail SHMYKOV",
@@ -1253,7 +1253,7 @@
       "unit": "m",
       "date": "2026-03-01",
       "venue": "Spartak Stadium, Yuzhno-Sakhalinsk (RUS) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Chenyang LI",
@@ -1264,7 +1264,7 @@
       "unit": "m",
       "date": "2026-03-25",
       "venue": "Shanghai Sports University Indoor Athletics Stadium, Shanghai (CHN) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Menno VLOON",
@@ -1275,7 +1275,7 @@
       "unit": "m",
       "date": "2026-03-21",
       "venue": "Kujawsko-Pomorska Arena, Toruń (POL) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Dyson WICKER",
@@ -1286,7 +1286,7 @@
       "unit": "m",
       "date": "2026-06-10",
       "venue": "Hayward Field, Eugene, OR (USA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Pedro BUARÓ",
@@ -1297,7 +1297,7 @@
       "unit": "m",
       "date": "2026-07-16",
       "venue": "Estadio Vallehermoso, Madrid (ESP)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Matthew GRAY",
@@ -1308,7 +1308,7 @@
       "unit": "m",
       "date": "2026-05-15",
       "venue": "Jaguar Track, Mobile, AL (USA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Robin EMIG",
@@ -1319,7 +1319,7 @@
       "unit": "m",
       "date": "2026-07-04",
       "venue": "Stade de Vongy, Thonon-les-Bains (FRA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Seifeldin ABDELSALAM",
@@ -1330,7 +1330,7 @@
       "unit": "m",
       "date": "2026-08-05",
       "venue": "Stadion, Jockgrim (GER)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Jimmy RHOADS",
@@ -1341,7 +1341,7 @@
       "unit": "m",
       "date": "2026-01-16",
       "venue": "Dempsey Indoor, Seattle, WA (USA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Ashton BARKDULL",
@@ -1352,7 +1352,7 @@
       "unit": "m",
       "date": "2026-05-08",
       "venue": "Cessna Stadium, Wichita, KS (USA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Anthony AMMIRATI",
@@ -1363,7 +1363,7 @@
       "unit": "m",
       "date": "2026-06-13",
       "venue": "Stade Christian Plaziat, Pierre-Bénite (FRA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Zackaria DIA",
@@ -1374,7 +1374,7 @@
       "unit": "m",
       "date": "2026-06-13",
       "venue": "Stade Christian Plaziat, Pierre-Bénite (FRA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Mathieu COLLET",
@@ -1385,7 +1385,7 @@
       "unit": "m",
       "date": "2026-07-26",
       "venue": "Stadium Municipal, Albi (FRA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Olen Tray OATES",
@@ -1396,7 +1396,7 @@
       "unit": "m",
       "date": "2026-02-13",
       "venue": "Convention Center, Albuquerque, NM (USA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Anthony MEACHAM",
@@ -1407,7 +1407,7 @@
       "unit": "m",
       "date": "2026-05-02",
       "venue": "Rock Chalk Park, Lawrence, KS (USA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Austin MILLER",
@@ -1418,7 +1418,7 @@
       "unit": "m",
       "date": "2026-06-28",
       "venue": "Alfonso Galvis Duque Stadium, Medellín (COL)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Ersu ŞAŞMA",
@@ -1429,7 +1429,7 @@
       "unit": "m",
       "date": "2026-07-05",
       "venue": "Pl. Panathinaikou Stadiou, Athina (GRE)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Simen GUTTORMSEN",
@@ -1440,7 +1440,7 @@
       "unit": "m",
       "date": "2026-02-22",
       "venue": "Arena Toruń, Toruń (POL) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Ethan CORMONT",
@@ -1451,7 +1451,7 @@
       "unit": "m",
       "date": "2026-02-22",
       "venue": "Maison des Sports, Clermont-Ferrand (FRA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Aleksandr SOLOVYOV",
@@ -1462,7 +1462,7 @@
       "unit": "m",
       "date": "2026-03-14",
       "venue": "Randal Tyson Indoor Center, Fayetteville, AR (USA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Valters KREIŠS",
@@ -1473,7 +1473,7 @@
       "unit": "m",
       "date": "2026-05-19",
       "venue": "Jāņa Daliņa Stadium, Valmiera (LAT)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Cole WALSH",
@@ -1484,7 +1484,7 @@
       "unit": "m",
       "date": "2026-02-08",
       "venue": "Europahalle, Karlsruhe (GER) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Ismaila SAWANEH",
@@ -1495,7 +1495,7 @@
       "unit": "m",
       "date": "2026-02-27",
       "venue": "R.A. \"Murray\" Fasken Indoor Track Stadium, College Station, TX (USA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "David HOLÝ",
@@ -1506,7 +1506,7 @@
       "unit": "m",
       "date": "2026-02-28",
       "venue": "Atletická hala, Ostrava (CZE) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Nate RICHARTZ",
@@ -1517,7 +1517,7 @@
       "unit": "m",
       "date": "2026-01-24",
       "venue": "Convention Center, Albuquerque, NM (USA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Bradley JELMERT",
@@ -1528,7 +1528,7 @@
       "unit": "m",
       "date": "2026-01-24",
       "venue": "Convention Center, Albuquerque, NM (USA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Hunter GARRETSON",
@@ -1539,7 +1539,7 @@
       "unit": "m",
       "date": "2026-01-31",
       "venue": "Loftus Sports Center, Notre Dame, IN (USA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Mathis PROD HOMME",
@@ -1550,7 +1550,7 @@
       "unit": "m",
       "date": "2026-02-21",
       "venue": "Maison des Sports, Clermont-Ferrand (FRA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Valentin LAVILLENIE",
@@ -1561,7 +1561,7 @@
       "unit": "m",
       "date": "2026-03-01",
       "venue": "Stadium Jean-Pellez, Aubière (FRA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Piotr LISEK",
@@ -1572,7 +1572,7 @@
       "unit": "m",
       "date": "2026-05-24",
       "venue": "Centrum Animacji Kultury, Duszniki (POL)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Logan HAMMER",
@@ -1583,7 +1583,7 @@
       "unit": "m",
       "date": "2026-06-10",
       "venue": "Hayward Field, Eugene, OR (USA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Ben BROEDERS",
@@ -1594,7 +1594,7 @@
       "unit": "m",
       "date": "2026-07-26",
       "venue": "Atletiekarena Gaston Roelants, Kessel-Lo (BEL)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Henri APRI",
@@ -1605,7 +1605,7 @@
       "unit": "m",
       "date": "2026-08-09",
       "venue": "Hayward Field, Eugene, OR (USA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Cade GRAY",
@@ -1616,7 +1616,7 @@
       "unit": "m",
       "date": "2026-02-27",
       "venue": "R.A. \"Murray\" Fasken Indoor Track Stadium, College Station, TX (USA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Conner MCCLURE",
@@ -1627,7 +1627,7 @@
       "unit": "m",
       "date": "2026-01-24",
       "venue": "Rector Fieldhouse, Blacksburg, VA (USA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Owen HEARD",
@@ -1638,7 +1638,7 @@
       "unit": "m",
       "date": "2026-03-08",
       "venue": "Loughborough University Indoor Track, Loughborough (GBR) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Christyan SAMPY",
@@ -1649,7 +1649,7 @@
       "unit": "m",
       "date": "2026-04-29",
       "venue": "Carl Lewis TF and Soccer Complex, Houston, TX (USA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Oleksandr ONUFRIYEV",
@@ -1660,7 +1660,7 @@
       "unit": "m",
       "date": "2026-01-28",
       "venue": "Lausitz-Arena, Cottbus (GER) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Torben BLECH",
@@ -1671,7 +1671,7 @@
       "unit": "m",
       "date": "2026-01-28",
       "venue": "Lausitz-Arena, Cottbus (GER) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Cody JOHNSTON",
@@ -1682,7 +1682,7 @@
       "unit": "m",
       "date": "2026-02-13",
       "venue": "Randal Tyson Indoor Center, Fayetteville, AR (USA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Dmitriy KACHANOV",
@@ -1693,7 +1693,7 @@
       "unit": "m",
       "date": "2026-03-01",
       "venue": "Spartak Stadium, Yuzhno-Sakhalinsk (RUS) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Ricardo David MONTES",
@@ -1704,7 +1704,7 @@
       "unit": "m",
       "date": "2026-04-09",
       "venue": "Cushing Stadium, College Station, TX (USA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Bryce BARKDULL",
@@ -1715,7 +1715,7 @@
       "unit": "m",
       "date": "2026-04-18",
       "venue": "Jack Rose Track, Long Beach, CA (USA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Hussain Asim AL HIZAM",
@@ -1726,7 +1726,7 @@
       "unit": "m",
       "date": "2026-04-24",
       "venue": "John McDonnell Field, Fayetteville, AR (USA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Bokai HUANG",
@@ -1737,7 +1737,7 @@
       "unit": "m",
       "date": "2026-05-16",
       "venue": "China Textile City Sports Centre, Shaoxing/Keqiao (CHN)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Clayton SIMMS",
@@ -1748,7 +1748,7 @@
       "unit": "m",
       "date": "2026-06-06",
       "venue": "Cushing Stadium, College Station, TX (USA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Ioannis RIZOS",
@@ -1759,7 +1759,7 @@
       "unit": "m",
       "date": "2026-06-06",
       "venue": "G-Town Track, Gräfelfing (GER)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Renaud LAVILLENIE",
@@ -1770,7 +1770,7 @@
       "unit": "m",
       "date": "2026-06-07",
       "venue": "Olympiastadion, Stockholm (SWE)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Matthias ORBAN",
@@ -1781,7 +1781,7 @@
       "unit": "m",
       "date": "2026-06-13",
       "venue": "Stade Christian Plaziat, Pierre-Bénite (FRA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Jie YAO",
@@ -1792,7 +1792,7 @@
       "unit": "m",
       "date": "2026-06-27",
       "venue": "Kuishan Sports Center, Rizhao (CHN)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "William ASKER",
@@ -1803,7 +1803,7 @@
       "unit": "m",
       "date": "2026-07-11",
       "venue": "Åby Friidrott, Mölndal (SWE)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Ylio PHILTJENS",
@@ -1814,7 +1814,7 @@
       "unit": "m",
       "date": "2026-07-19",
       "venue": "Stade Lucien Gustin, Hannut (BEL)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Kyle RADEMEYER",
@@ -1825,7 +1825,7 @@
       "unit": "m",
       "date": "2026-08-01",
       "venue": "Scotstoun Stadium, Glasgow (GBR)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Matt LUDWIG",
@@ -1836,7 +1836,7 @@
       "unit": "m",
       "date": "2026-08-05",
       "venue": "Stadion, Jockgrim (GER)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Juho ALASAARI",
@@ -1847,7 +1847,7 @@
       "unit": "m",
       "date": "2026-07-12",
       "venue": "Ratinan Stadion, Tampere (FIN)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Tomoya KARASAWA",
@@ -1858,7 +1858,7 @@
       "unit": "m",
       "date": "2026-05-16",
       "venue": "ND Soft Stadium, Tendo (JPN)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Matteo OLIVERI",
@@ -1869,7 +1869,7 @@
       "unit": "m",
       "date": "2026-07-15",
       "venue": "Province Naimette Arena, Liège (BEL)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Robert KOMPUS",
@@ -1880,7 +1880,7 @@
       "unit": "m",
       "date": "2026-02-08",
       "venue": "Helmut-Körnig-Halle, Dortmund (GER) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Kevin O'SULLIVAN",
@@ -1891,7 +1891,7 @@
       "unit": "m",
       "date": "2026-02-13",
       "venue": "Randal Tyson Indoor Center, Fayetteville, AR (USA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Ranel SHAFIKOV",
@@ -1902,7 +1902,7 @@
       "unit": "m",
       "date": "2026-03-08",
       "venue": "MGSU Sports Arena, Moskva (RUS) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Carson Cody WATERS",
@@ -1913,7 +1913,7 @@
       "unit": "m",
       "date": "2026-04-11",
       "venue": "Mercato,9110 Strada Pl, Naples, FL (USA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Chris JOHNSON",
@@ -1924,7 +1924,7 @@
       "unit": "m",
       "date": "2026-04-11",
       "venue": "Mercato,9110 Strada Pl, Naples, FL (USA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Tyler CARREL",
@@ -1935,7 +1935,7 @@
       "unit": "m",
       "date": "2026-05-08",
       "venue": "Billy Hayes T& F Complex, Bloomington, IN (USA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Timur MORGUNOV",
@@ -1946,7 +1946,7 @@
       "unit": "m",
       "date": "2026-07-23",
       "venue": "Kalininets Stadium, Yekaterinburg (RUS)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Blake SIFFERLIN",
@@ -1957,7 +1957,7 @@
       "unit": "m",
       "date": "2026-02-15",
       "venue": "Rector Fieldhouse, Blacksburg, VA (USA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Artur COLL",
@@ -1968,7 +1968,7 @@
       "unit": "m",
       "date": "2026-02-07",
       "venue": "Stabinski Velodrome, Roubaix (FRA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Simone BERTELLI",
@@ -1979,7 +1979,7 @@
       "unit": "m",
       "date": "2026-02-28",
       "venue": "Palaindoor Ancona, Ancona (ITA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Brian O'SULLIVAN",
@@ -1990,7 +1990,7 @@
       "unit": "m",
       "date": "2026-02-28",
       "venue": "Fall Creek Pavilion, Indianapolis, IN (USA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Márton BÖNDÖR",
@@ -2001,7 +2001,7 @@
       "unit": "m",
       "date": "2026-01-31",
       "venue": "Palais des Sports Caen la Mer, Caen (FRA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Tristan DESPRES",
@@ -2012,7 +2012,7 @@
       "unit": "m",
       "date": "2026-01-31",
       "venue": "Palais des Sports Caen la Mer, Caen (FRA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Trevor STEPHENSON",
@@ -2023,7 +2023,7 @@
       "unit": "m",
       "date": "2026-04-23",
       "venue": "Cardinal Park, Louisville, KY (USA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Jacob WOOTEN",
@@ -2034,7 +2034,7 @@
       "unit": "m",
       "date": "2026-04-24",
       "venue": "Drake Stadium, Des Moines, IA (USA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Gillian LADWIG",
@@ -2045,7 +2045,7 @@
       "unit": "m",
       "date": "2026-05-29",
       "venue": "Altstadtmarkt, Recklinghausen (GER)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Oliver SANDBERG",
@@ -2056,7 +2056,7 @@
       "unit": "m",
       "date": "2026-05-29",
       "venue": "Altstadtmarkt, Recklinghausen (GER)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Ivan Geronimo ŠERIĆ",
@@ -2067,7 +2067,7 @@
       "unit": "m",
       "date": "2026-03-01",
       "venue": "Velesajam Hall, Zagreb (CRO) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Keaton DANIEL",
@@ -2078,7 +2078,7 @@
       "unit": "m",
       "date": "2026-04-10",
       "venue": "Tom Black Track at LaPorte Stadium, Knoxville, TN (USA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Scott TONEY",
@@ -2089,7 +2089,7 @@
       "unit": "m",
       "date": "2026-01-30",
       "venue": "Dempsey Indoor, Seattle, WA (USA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Shane BAGLEY",
@@ -2100,7 +2100,7 @@
       "unit": "m",
       "date": "2026-04-04",
       "venue": "Cobb Track and Angell Field, Palo Alto, CA (USA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Masaki EJIMA",
@@ -2111,7 +2111,7 @@
       "unit": "m",
       "date": "2026-05-10",
       "venue": "Yanmar Stadium Nagai, Osaka (JPN)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Nikolai VAN HUYSSTEEN",
@@ -2122,7 +2122,7 @@
       "unit": "m",
       "date": "2026-05-15",
       "venue": "Hutsell-Rosen Track, Auburn, AL (USA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Patsapong AMSAM-ANG",
@@ -2133,7 +2133,7 @@
       "unit": "m",
       "date": "2026-05-30",
       "venue": "Gwangalli beach, Busan (KOR)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Yang CHEN",
@@ -2144,7 +2144,7 @@
       "unit": "m",
       "date": "2026-05-30",
       "venue": "Sports Center, Bengbu (CHN)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Tao ZHONG",
@@ -2155,7 +2155,7 @@
       "unit": "m",
       "date": "2026-06-04",
       "venue": "Sports Center, Nanping (CHN)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Stepan KEKIN",
@@ -2166,7 +2166,7 @@
       "unit": "m",
       "date": "2026-06-07",
       "venue": "Vorobyevi Gory, Moskva (RUS)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Maddox HAMM",
@@ -2177,7 +2177,7 @@
       "unit": "m",
       "date": "2026-06-10",
       "venue": "Hayward Field, Eugene, OR (USA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Dan BÁRTA",
@@ -2188,7 +2188,7 @@
       "unit": "m",
       "date": "2026-06-27",
       "venue": "Altstadt, Hof (GER)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Theo DEROBERT",
@@ -2199,7 +2199,7 @@
       "unit": "m",
       "date": "2026-07-04",
       "venue": "Stade de Vongy, Thonon-les-Bains (FRA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Armand DUPLANTIS",
@@ -2210,7 +2210,7 @@
       "unit": "m",
       "date": "2026-03-12",
       "venue": "IFU Arena, Uppsala (SWE) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Emmanouil KARALIS",
@@ -2221,7 +2221,7 @@
       "unit": "m",
       "date": "2026-02-28",
       "venue": "Olympic Sports Complex of Paiania, Athina (GRE) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Sondre GUTTORMSEN",
@@ -2232,7 +2232,7 @@
       "unit": "m",
       "date": "2026-03-07",
       "venue": "Complexe Kindarena, Rouen (FRA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Matvei VOLKOV",
@@ -2243,7 +2243,7 @@
       "unit": "m",
       "date": "2026-02-20",
       "venue": "Olimpiyets Arena, Mogilyov (BLR) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Zachery BRADFORD",
@@ -2254,7 +2254,7 @@
       "unit": "m",
       "date": "2026-02-28",
       "venue": "Ocean Breeze Athl. Complex, New York, NY (USA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Kurtis MARSCHALL",
@@ -2265,7 +2265,7 @@
       "unit": "m",
       "date": "2026-02-22",
       "venue": "Maison des Sports, Clermont-Ferrand (FRA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Sam KENDRICKS",
@@ -2276,7 +2276,7 @@
       "unit": "m",
       "date": "2026-07-18",
       "venue": "Olympic Stadium, London (GBR)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Baptiste THIERY",
@@ -2287,7 +2287,7 @@
       "unit": "m",
       "date": "2026-06-28",
       "venue": "Stade Charléty, Paris (FRA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Christopher NILSEN",
@@ -2298,7 +2298,7 @@
       "unit": "m",
       "date": "2026-06-19",
       "venue": "Suhaim bin Hamad Stadium, Doha (QAT)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "KC LIGHTFOOT",
@@ -2309,7 +2309,7 @@
       "unit": "m",
       "date": "2026-02-07",
       "venue": "Randal Tyson Indoor Center, Fayetteville, AR (USA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Thibaut COLLET",
@@ -2320,7 +2320,7 @@
       "unit": "m",
       "date": "2026-07-05",
       "venue": "Pl. Panathinaikou Stadiou, Athina (GRE)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Ernest John OBIENA",
@@ -2331,7 +2331,7 @@
       "unit": "m",
       "date": "2026-08-17",
       "venue": "Promenada Gwiazd, Miedzyzdroje (POL)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Bo Kanda LITA BAEHRE",
@@ -2342,7 +2342,7 @@
       "unit": "m",
       "date": "2026-07-16",
       "venue": "Estadio Vallehermoso, Madrid (ESP)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Mikhail SHMYKOV",
@@ -2353,7 +2353,7 @@
       "unit": "m",
       "date": "2026-03-01",
       "venue": "Spartak Stadium, Yuzhno-Sakhalinsk (RUS) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Chenyang LI",
@@ -2364,7 +2364,7 @@
       "unit": "m",
       "date": "2026-03-25",
       "venue": "Shanghai Sports University Indoor Athletics Stadium, Shanghai (CHN) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Menno VLOON",
@@ -2375,7 +2375,7 @@
       "unit": "m",
       "date": "2026-03-21",
       "venue": "Kujawsko-Pomorska Arena, Toruń (POL) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Dyson WICKER",
@@ -2386,7 +2386,7 @@
       "unit": "m",
       "date": "2026-06-10",
       "venue": "Hayward Field, Eugene, OR (USA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Pedro BUARÓ",
@@ -2397,7 +2397,7 @@
       "unit": "m",
       "date": "2026-07-16",
       "venue": "Estadio Vallehermoso, Madrid (ESP)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Matthew GRAY",
@@ -2408,7 +2408,7 @@
       "unit": "m",
       "date": "2026-05-15",
       "venue": "Jaguar Track, Mobile, AL (USA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Robin EMIG",
@@ -2419,7 +2419,7 @@
       "unit": "m",
       "date": "2026-07-04",
       "venue": "Stade de Vongy, Thonon-les-Bains (FRA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Seifeldin ABDELSALAM",
@@ -2430,7 +2430,7 @@
       "unit": "m",
       "date": "2026-08-05",
       "venue": "Stadion, Jockgrim (GER)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Jimmy RHOADS",
@@ -2441,7 +2441,7 @@
       "unit": "m",
       "date": "2026-01-16",
       "venue": "Dempsey Indoor, Seattle, WA (USA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Ashton BARKDULL",
@@ -2452,7 +2452,7 @@
       "unit": "m",
       "date": "2026-05-08",
       "venue": "Cessna Stadium, Wichita, KS (USA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Anthony AMMIRATI",
@@ -2463,7 +2463,7 @@
       "unit": "m",
       "date": "2026-06-13",
       "venue": "Stade Christian Plaziat, Pierre-Bénite (FRA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Zackaria DIA",
@@ -2474,7 +2474,7 @@
       "unit": "m",
       "date": "2026-06-13",
       "venue": "Stade Christian Plaziat, Pierre-Bénite (FRA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Mathieu COLLET",
@@ -2485,7 +2485,7 @@
       "unit": "m",
       "date": "2026-07-26",
       "venue": "Stadium Municipal, Albi (FRA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Olen Tray OATES",
@@ -2496,7 +2496,7 @@
       "unit": "m",
       "date": "2026-02-13",
       "venue": "Convention Center, Albuquerque, NM (USA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Anthony MEACHAM",
@@ -2507,7 +2507,7 @@
       "unit": "m",
       "date": "2026-05-02",
       "venue": "Rock Chalk Park, Lawrence, KS (USA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Austin MILLER",
@@ -2518,7 +2518,7 @@
       "unit": "m",
       "date": "2026-06-28",
       "venue": "Alfonso Galvis Duque Stadium, Medellín (COL)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Ersu ŞAŞMA",
@@ -2529,7 +2529,7 @@
       "unit": "m",
       "date": "2026-07-05",
       "venue": "Pl. Panathinaikou Stadiou, Athina (GRE)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Simen GUTTORMSEN",
@@ -2540,7 +2540,7 @@
       "unit": "m",
       "date": "2026-02-22",
       "venue": "Arena Toruń, Toruń (POL) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Ethan CORMONT",
@@ -2551,7 +2551,7 @@
       "unit": "m",
       "date": "2026-02-22",
       "venue": "Maison des Sports, Clermont-Ferrand (FRA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Aleksandr SOLOVYOV",
@@ -2562,7 +2562,7 @@
       "unit": "m",
       "date": "2026-03-14",
       "venue": "Randal Tyson Indoor Center, Fayetteville, AR (USA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Valters KREIŠS",
@@ -2573,7 +2573,7 @@
       "unit": "m",
       "date": "2026-05-19",
       "venue": "Jāņa Daliņa Stadium, Valmiera (LAT)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Cole WALSH",
@@ -2584,7 +2584,7 @@
       "unit": "m",
       "date": "2026-02-08",
       "venue": "Europahalle, Karlsruhe (GER) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Ismaila SAWANEH",
@@ -2595,7 +2595,7 @@
       "unit": "m",
       "date": "2026-02-27",
       "venue": "R.A. \"Murray\" Fasken Indoor Track Stadium, College Station, TX (USA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "David HOLÝ",
@@ -2606,7 +2606,7 @@
       "unit": "m",
       "date": "2026-02-28",
       "venue": "Atletická hala, Ostrava (CZE) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Nate RICHARTZ",
@@ -2617,7 +2617,7 @@
       "unit": "m",
       "date": "2026-01-24",
       "venue": "Convention Center, Albuquerque, NM (USA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Bradley JELMERT",
@@ -2628,7 +2628,7 @@
       "unit": "m",
       "date": "2026-01-24",
       "venue": "Convention Center, Albuquerque, NM (USA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Hunter GARRETSON",
@@ -2639,7 +2639,7 @@
       "unit": "m",
       "date": "2026-01-31",
       "venue": "Loftus Sports Center, Notre Dame, IN (USA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Mathis PROD HOMME",
@@ -2650,7 +2650,7 @@
       "unit": "m",
       "date": "2026-02-21",
       "venue": "Maison des Sports, Clermont-Ferrand (FRA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Valentin LAVILLENIE",
@@ -2661,7 +2661,7 @@
       "unit": "m",
       "date": "2026-03-01",
       "venue": "Stadium Jean-Pellez, Aubière (FRA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Piotr LISEK",
@@ -2672,7 +2672,7 @@
       "unit": "m",
       "date": "2026-05-24",
       "venue": "Centrum Animacji Kultury, Duszniki (POL)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Logan HAMMER",
@@ -2683,7 +2683,7 @@
       "unit": "m",
       "date": "2026-06-10",
       "venue": "Hayward Field, Eugene, OR (USA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Ben BROEDERS",
@@ -2694,7 +2694,7 @@
       "unit": "m",
       "date": "2026-07-26",
       "venue": "Atletiekarena Gaston Roelants, Kessel-Lo (BEL)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Henri APRI",
@@ -2705,7 +2705,7 @@
       "unit": "m",
       "date": "2026-08-09",
       "venue": "Hayward Field, Eugene, OR (USA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Cade GRAY",
@@ -2716,7 +2716,7 @@
       "unit": "m",
       "date": "2026-02-27",
       "venue": "R.A. \"Murray\" Fasken Indoor Track Stadium, College Station, TX (USA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Conner MCCLURE",
@@ -2727,7 +2727,7 @@
       "unit": "m",
       "date": "2026-01-24",
       "venue": "Rector Fieldhouse, Blacksburg, VA (USA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Owen HEARD",
@@ -2738,7 +2738,7 @@
       "unit": "m",
       "date": "2026-03-08",
       "venue": "Loughborough University Indoor Track, Loughborough (GBR) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Christyan SAMPY",
@@ -2749,7 +2749,7 @@
       "unit": "m",
       "date": "2026-04-29",
       "venue": "Carl Lewis TF and Soccer Complex, Houston, TX (USA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Oleksandr ONUFRIYEV",
@@ -2760,7 +2760,7 @@
       "unit": "m",
       "date": "2026-01-28",
       "venue": "Lausitz-Arena, Cottbus (GER) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Torben BLECH",
@@ -2771,7 +2771,7 @@
       "unit": "m",
       "date": "2026-01-28",
       "venue": "Lausitz-Arena, Cottbus (GER) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Cody JOHNSTON",
@@ -2782,7 +2782,7 @@
       "unit": "m",
       "date": "2026-02-13",
       "venue": "Randal Tyson Indoor Center, Fayetteville, AR (USA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Dmitriy KACHANOV",
@@ -2793,7 +2793,7 @@
       "unit": "m",
       "date": "2026-03-01",
       "venue": "Spartak Stadium, Yuzhno-Sakhalinsk (RUS) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Ricardo David MONTES",
@@ -2804,7 +2804,7 @@
       "unit": "m",
       "date": "2026-04-09",
       "venue": "Cushing Stadium, College Station, TX (USA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Bryce BARKDULL",
@@ -2815,7 +2815,7 @@
       "unit": "m",
       "date": "2026-04-18",
       "venue": "Jack Rose Track, Long Beach, CA (USA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Hussain Asim AL HIZAM",
@@ -2826,7 +2826,7 @@
       "unit": "m",
       "date": "2026-04-24",
       "venue": "John McDonnell Field, Fayetteville, AR (USA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Bokai HUANG",
@@ -2837,7 +2837,7 @@
       "unit": "m",
       "date": "2026-05-16",
       "venue": "China Textile City Sports Centre, Shaoxing/Keqiao (CHN)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Clayton SIMMS",
@@ -2848,7 +2848,7 @@
       "unit": "m",
       "date": "2026-06-06",
       "venue": "Cushing Stadium, College Station, TX (USA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Ioannis RIZOS",
@@ -2859,7 +2859,7 @@
       "unit": "m",
       "date": "2026-06-06",
       "venue": "G-Town Track, Gräfelfing (GER)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Renaud LAVILLENIE",
@@ -2870,7 +2870,7 @@
       "unit": "m",
       "date": "2026-06-07",
       "venue": "Olympiastadion, Stockholm (SWE)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Matthias ORBAN",
@@ -2881,7 +2881,7 @@
       "unit": "m",
       "date": "2026-06-13",
       "venue": "Stade Christian Plaziat, Pierre-Bénite (FRA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Jie YAO",
@@ -2892,7 +2892,7 @@
       "unit": "m",
       "date": "2026-06-27",
       "venue": "Kuishan Sports Center, Rizhao (CHN)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "William ASKER",
@@ -2903,7 +2903,7 @@
       "unit": "m",
       "date": "2026-07-11",
       "venue": "Åby Friidrott, Mölndal (SWE)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Ylio PHILTJENS",
@@ -2914,7 +2914,7 @@
       "unit": "m",
       "date": "2026-07-19",
       "venue": "Stade Lucien Gustin, Hannut (BEL)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Kyle RADEMEYER",
@@ -2925,7 +2925,7 @@
       "unit": "m",
       "date": "2026-08-01",
       "venue": "Scotstoun Stadium, Glasgow (GBR)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Matt LUDWIG",
@@ -2936,7 +2936,7 @@
       "unit": "m",
       "date": "2026-08-05",
       "venue": "Stadion, Jockgrim (GER)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Juho ALASAARI",
@@ -2947,7 +2947,7 @@
       "unit": "m",
       "date": "2026-07-12",
       "venue": "Ratinan Stadion, Tampere (FIN)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Tomoya KARASAWA",
@@ -2958,7 +2958,7 @@
       "unit": "m",
       "date": "2026-05-16",
       "venue": "ND Soft Stadium, Tendo (JPN)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Matteo OLIVERI",
@@ -2969,7 +2969,7 @@
       "unit": "m",
       "date": "2026-07-15",
       "venue": "Province Naimette Arena, Liège (BEL)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Robert KOMPUS",
@@ -2980,7 +2980,7 @@
       "unit": "m",
       "date": "2026-02-08",
       "venue": "Helmut-Körnig-Halle, Dortmund (GER) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Kevin O'SULLIVAN",
@@ -2991,7 +2991,7 @@
       "unit": "m",
       "date": "2026-02-13",
       "venue": "Randal Tyson Indoor Center, Fayetteville, AR (USA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Ranel SHAFIKOV",
@@ -3002,7 +3002,7 @@
       "unit": "m",
       "date": "2026-03-08",
       "venue": "MGSU Sports Arena, Moskva (RUS) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Carson Cody WATERS",
@@ -3013,7 +3013,7 @@
       "unit": "m",
       "date": "2026-04-11",
       "venue": "Mercato,9110 Strada Pl, Naples, FL (USA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Chris JOHNSON",
@@ -3024,7 +3024,7 @@
       "unit": "m",
       "date": "2026-04-11",
       "venue": "Mercato,9110 Strada Pl, Naples, FL (USA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Tyler CARREL",
@@ -3035,7 +3035,7 @@
       "unit": "m",
       "date": "2026-05-08",
       "venue": "Billy Hayes T& F Complex, Bloomington, IN (USA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Timur MORGUNOV",
@@ -3046,7 +3046,7 @@
       "unit": "m",
       "date": "2026-07-23",
       "venue": "Kalininets Stadium, Yekaterinburg (RUS)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Blake SIFFERLIN",
@@ -3057,7 +3057,7 @@
       "unit": "m",
       "date": "2026-02-15",
       "venue": "Rector Fieldhouse, Blacksburg, VA (USA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Artur COLL",
@@ -3068,7 +3068,7 @@
       "unit": "m",
       "date": "2026-02-07",
       "venue": "Stabinski Velodrome, Roubaix (FRA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Simone BERTELLI",
@@ -3079,7 +3079,7 @@
       "unit": "m",
       "date": "2026-02-28",
       "venue": "Palaindoor Ancona, Ancona (ITA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Brian O'SULLIVAN",
@@ -3090,7 +3090,7 @@
       "unit": "m",
       "date": "2026-02-28",
       "venue": "Fall Creek Pavilion, Indianapolis, IN (USA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Márton BÖNDÖR",
@@ -3101,7 +3101,7 @@
       "unit": "m",
       "date": "2026-01-31",
       "venue": "Palais des Sports Caen la Mer, Caen (FRA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Tristan DESPRES",
@@ -3112,7 +3112,7 @@
       "unit": "m",
       "date": "2026-01-31",
       "venue": "Palais des Sports Caen la Mer, Caen (FRA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Trevor STEPHENSON",
@@ -3123,7 +3123,7 @@
       "unit": "m",
       "date": "2026-04-23",
       "venue": "Cardinal Park, Louisville, KY (USA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Jacob WOOTEN",
@@ -3134,7 +3134,7 @@
       "unit": "m",
       "date": "2026-04-24",
       "venue": "Drake Stadium, Des Moines, IA (USA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Gillian LADWIG",
@@ -3145,7 +3145,7 @@
       "unit": "m",
       "date": "2026-05-29",
       "venue": "Altstadtmarkt, Recklinghausen (GER)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Oliver SANDBERG",
@@ -3156,7 +3156,7 @@
       "unit": "m",
       "date": "2026-05-29",
       "venue": "Altstadtmarkt, Recklinghausen (GER)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Ivan Geronimo ŠERIĆ",
@@ -3167,7 +3167,7 @@
       "unit": "m",
       "date": "2026-03-01",
       "venue": "Velesajam Hall, Zagreb (CRO) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Keaton DANIEL",
@@ -3178,7 +3178,7 @@
       "unit": "m",
       "date": "2026-04-10",
       "venue": "Tom Black Track at LaPorte Stadium, Knoxville, TN (USA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Scott TONEY",
@@ -3189,7 +3189,7 @@
       "unit": "m",
       "date": "2026-01-30",
       "venue": "Dempsey Indoor, Seattle, WA (USA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Shane BAGLEY",
@@ -3200,7 +3200,7 @@
       "unit": "m",
       "date": "2026-04-04",
       "venue": "Cobb Track and Angell Field, Palo Alto, CA (USA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Masaki EJIMA",
@@ -3211,7 +3211,7 @@
       "unit": "m",
       "date": "2026-05-10",
       "venue": "Yanmar Stadium Nagai, Osaka (JPN)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Nikolai VAN HUYSSTEEN",
@@ -3222,7 +3222,7 @@
       "unit": "m",
       "date": "2026-05-15",
       "venue": "Hutsell-Rosen Track, Auburn, AL (USA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Patsapong AMSAM-ANG",
@@ -3233,7 +3233,7 @@
       "unit": "m",
       "date": "2026-05-30",
       "venue": "Gwangalli beach, Busan (KOR)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Yang CHEN",
@@ -3244,7 +3244,7 @@
       "unit": "m",
       "date": "2026-05-30",
       "venue": "Sports Center, Bengbu (CHN)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Tao ZHONG",
@@ -3255,7 +3255,7 @@
       "unit": "m",
       "date": "2026-06-04",
       "venue": "Sports Center, Nanping (CHN)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Stepan KEKIN",
@@ -3266,7 +3266,7 @@
       "unit": "m",
       "date": "2026-06-07",
       "venue": "Vorobyevi Gory, Moskva (RUS)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Maddox HAMM",
@@ -3277,7 +3277,7 @@
       "unit": "m",
       "date": "2026-06-10",
       "venue": "Hayward Field, Eugene, OR (USA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Dan BÁRTA",
@@ -3288,7 +3288,7 @@
       "unit": "m",
       "date": "2026-06-27",
       "venue": "Altstadt, Hof (GER)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Theo DEROBERT",
@@ -3299,7 +3299,7 @@
       "unit": "m",
       "date": "2026-07-04",
       "venue": "Stade de Vongy, Thonon-les-Bains (FRA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Nina KENNEDY",
@@ -3310,7 +3310,7 @@
       "unit": "m",
       "date": "2026-07-10",
       "venue": "Stade Louis II, Monaco (MON)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Polina KNOROZ",
@@ -3321,7 +3321,7 @@
       "unit": "m",
       "date": "2026-06-20",
       "venue": "Olympic Stadium, Cheboksary (RUS)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Sandi MORRIS",
@@ -3332,7 +3332,7 @@
       "unit": "m",
       "date": "2026-07-25",
       "venue": "Icahn Stadium, New York, NY (USA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Hana MOLL",
@@ -3343,7 +3343,7 @@
       "unit": "m",
       "date": "2026-01-30",
       "venue": "Dempsey Indoor, Seattle, WA (USA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Molly CAUDERY",
@@ -3354,7 +3354,7 @@
       "unit": "m",
       "date": "2026-03-22",
       "venue": "Kujawsko-Pomorska Arena, Toruń (POL) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Amanda MOLL",
@@ -3365,7 +3365,7 @@
       "unit": "m",
       "date": "2026-06-11",
       "venue": "Hayward Field, Eugene, OR (USA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Eliza MCCARTNEY",
@@ -3376,7 +3376,7 @@
       "unit": "m",
       "date": "2026-03-07",
       "venue": "Douglas Track & Field, Auckland (NZL)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Imogen AYRIS",
@@ -3387,7 +3387,7 @@
       "unit": "m",
       "date": "2026-06-03",
       "venue": "Paavo Nurmen Stadion, Turku (FIN)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Wilma HELTELÄ",
@@ -3398,7 +3398,7 @@
       "unit": "m",
       "date": "2026-07-05",
       "venue": "Pl. Panathinaikou Stadiou, Athina (GRE)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Tina ŠUTEJ",
@@ -3409,7 +3409,7 @@
       "unit": "m",
       "date": "2026-02-08",
       "venue": "L'Anneau-Halle d'athlétisme de Metz, Metz (FRA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Angelica MOSER",
@@ -3420,7 +3420,7 @@
       "unit": "m",
       "date": "2026-06-04",
       "venue": "Stadio Olimpico, Roma (ITA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Katie MOON",
@@ -3431,7 +3431,7 @@
       "unit": "m",
       "date": "2026-07-03",
       "venue": "Hayward Field, Eugene, OR (USA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Amálie ŠVÁBÍKOVÁ",
@@ -3442,7 +3442,7 @@
       "unit": "m",
       "date": "2026-02-22",
       "venue": "Maison des Sports, Clermont-Ferrand (FRA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Marie-Julie BONNIN",
@@ -3453,7 +3453,7 @@
       "unit": "m",
       "date": "2026-02-22",
       "venue": "Maison des Sports, Clermont-Ferrand (FRA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Gabriela LEON",
@@ -3464,7 +3464,7 @@
       "unit": "m",
       "date": "2026-04-23",
       "venue": "Cardinal Park, Louisville, KY (USA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Chunge NIU",
@@ -3475,7 +3475,7 @@
       "unit": "m",
       "date": "2026-05-31",
       "venue": "Sports Center, Bengbu (CHN)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Chloe TIMBERG",
@@ -3486,7 +3486,7 @@
       "unit": "m",
       "date": "2026-07-11",
       "venue": "Handy Park, Beale Street, Memphis, TN (USA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Olivia MCTAGGART",
@@ -3497,7 +3497,7 @@
       "unit": "m",
       "date": "2026-06-14",
       "venue": "Sportcity Regional Arena, Manchester (GBR)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Juliana DE MENIS CAMPOS",
@@ -3508,7 +3508,7 @@
       "unit": "m",
       "date": "2026-03-22",
       "venue": "Kujawsko-Pomorska Arena, Toruń (POL) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Jessica MERCIER",
@@ -3519,7 +3519,7 @@
       "unit": "m",
       "date": "2026-03-22",
       "venue": "Kujawsko-Pomorska Arena, Toruń (POL) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Emily GROVE",
@@ -3530,7 +3530,7 @@
       "unit": "m",
       "date": "2026-07-03",
       "venue": "Hayward Field, Eugene, OR (USA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Kitty Friele FAYE",
@@ -3541,7 +3541,7 @@
       "unit": "m",
       "date": "2026-07-16",
       "venue": "Fana Stadion, Bergen (NOR)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Tatyana KALININA",
@@ -3552,17 +3552,17 @@
       "unit": "m",
       "date": "2026-07-25",
       "venue": "Kalininets Stadium, Yekaterinburg (RUS)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Brynn KING",
       "country": "USA",
       "gender": "w",
       "ageClass": "u18",
-      "mark": 4.64,
+      "mark": 4.65,
       "unit": "m",
-      "date": "2026-06-05",
-      "venue": "G-Town Track, Gräfelfing (GER)",
+      "date": "2026-08-19",
+      "venue": "Leppävaaran Stadion, Espoo (FIN)",
       "isNew": true
     },
     {
@@ -3574,7 +3574,7 @@
       "unit": "m",
       "date": "2026-06-11",
       "venue": "Hayward Field, Eugene, OR (USA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Ashley CALLAHAN",
@@ -3585,7 +3585,7 @@
       "unit": "m",
       "date": "2026-06-11",
       "venue": "Hayward Field, Eugene, OR (USA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Marleen MÜLLA",
@@ -3596,7 +3596,7 @@
       "unit": "m",
       "date": "2026-02-20",
       "venue": "Bob Devaney Sports Center, Lincoln, NE (USA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Anicka NEWELL",
@@ -3607,7 +3607,7 @@
       "unit": "m",
       "date": "2026-02-20",
       "venue": "Randal Tyson Indoor Center, Fayetteville, AR (USA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Lene Onsrud RETZIUS",
@@ -3618,7 +3618,7 @@
       "unit": "m",
       "date": "2026-07-05",
       "venue": "Pl. Panathinaikou Stadiou, Athina (GRE)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Marijn KIEFT",
@@ -3629,7 +3629,7 @@
       "unit": "m",
       "date": "2026-01-17",
       "venue": "ARV Ilion, Zoetermeer (NED) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Jacqueline OTCHERE",
@@ -3640,7 +3640,7 @@
       "unit": "m",
       "date": "2026-02-08",
       "venue": "Helmut-Körnig-Halle, Dortmund (GER) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Berenice PETIT",
@@ -3651,7 +3651,7 @@
       "unit": "m",
       "date": "2026-06-05",
       "venue": "Stade Omnisports de La Source, Orléans (FRA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Roberta BRUNI",
@@ -3662,7 +3662,7 @@
       "unit": "m",
       "date": "2026-06-21",
       "venue": "Stadio Guidobaldi, Rieti (ITA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Anjuli KNÄSCHE",
@@ -3673,7 +3673,7 @@
       "unit": "m",
       "date": "2026-07-19",
       "venue": "Waldstadion, Walldorf (GER)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Tori THOMAS",
@@ -3684,7 +3684,7 @@
       "unit": "m",
       "date": "2026-07-25",
       "venue": "Icahn Stadium, New York, NY (USA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Elien VEKEMANS",
@@ -3695,7 +3695,7 @@
       "unit": "m",
       "date": "2026-08-13",
       "venue": "Alexander Stadium, Birmingham (GBR)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Margot CHEVRIER",
@@ -3706,7 +3706,7 @@
       "unit": "m",
       "date": "2026-08-13",
       "venue": "Alexander Stadium, Birmingham (GBR)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Aikaterini STEFANIDI",
@@ -3717,7 +3717,7 @@
       "unit": "m",
       "date": "2026-08-13",
       "venue": "Alexander Stadium, Birmingham (GBR)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Molly HAYWOOD",
@@ -3728,7 +3728,7 @@
       "unit": "m",
       "date": "2026-06-11",
       "venue": "Hayward Field, Eugene, OR (USA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Mason MEINERSHAGEN",
@@ -3739,7 +3739,7 @@
       "unit": "m",
       "date": "2026-04-18",
       "venue": "Jack Rose Track, Long Beach, CA (USA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Saga ANDERSSON",
@@ -3750,7 +3750,7 @@
       "unit": "m",
       "date": "2026-06-19",
       "venue": "Keuruun keskuskenttä, Keuruu (FIN)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Rugilė MIKLYČIŪTĖ",
@@ -3761,7 +3761,7 @@
       "unit": "m",
       "date": "2026-06-27",
       "venue": "Someron urheilukenttä, Somero (FIN)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Ali SAHAIDA",
@@ -3772,7 +3772,7 @@
       "unit": "m",
       "date": "2026-03-14",
       "venue": "Randal Tyson Indoor Center, Fayetteville, AR (USA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Payton PHILLIPS",
@@ -3783,7 +3783,7 @@
       "unit": "m",
       "date": "2026-05-23",
       "venue": "Drake Stadium, Los Angeles, CA (USA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Sydney HORN",
@@ -3794,7 +3794,7 @@
       "unit": "m",
       "date": "2026-01-23",
       "venue": "Rector Fieldhouse, Blacksburg, VA (USA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Nayah CAUVIN",
@@ -3805,7 +3805,7 @@
       "unit": "m",
       "date": "2026-02-28",
       "venue": "Stadium Jean-Pellez, Aubière (FRA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Hannah GRACE",
@@ -3816,7 +3816,7 @@
       "unit": "m",
       "date": "2026-06-11",
       "venue": "Hayward Field, Eugene, OR (USA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Tenly KUHN",
@@ -3827,7 +3827,7 @@
       "unit": "m",
       "date": "2026-04-10",
       "venue": "Clyde Hart Track & Field Stadium, Waco, TX (USA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Hanga KLEKNER",
@@ -3838,7 +3838,7 @@
       "unit": "m",
       "date": "2026-01-22",
       "venue": "Sätrahallen, Stockholm (SWE) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Gemma TUTTON",
@@ -3849,7 +3849,7 @@
       "unit": "m",
       "date": "2026-02-21",
       "venue": "JDL Fast Track, Winston Salem, NC (USA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Ariadni ADAMOPOULOU",
@@ -3860,7 +3860,7 @@
       "unit": "m",
       "date": "2026-02-21",
       "venue": "Atletska dvorana, Beograd (SRB) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Nicole KRUTILOVÁ",
@@ -3871,7 +3871,7 @@
       "unit": "m",
       "date": "2026-07-02",
       "venue": "Stadion Míru, Tábor (CZE)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Elisa MOLINAROLO",
@@ -3882,7 +3882,7 @@
       "unit": "m",
       "date": "2026-07-25",
       "venue": "Stadio Luigi Ridolfi, Firenze (ITA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Lexi EVANS",
@@ -3893,7 +3893,7 @@
       "unit": "m",
       "date": "2026-02-13",
       "venue": "Dempsey Indoor, Seattle, WA (USA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Jathiyah MUHAMMAD",
@@ -3904,7 +3904,7 @@
       "unit": "m",
       "date": "2026-03-14",
       "venue": "Randal Tyson Indoor Center, Fayetteville, AR (USA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Lilyana CARLSON",
@@ -3915,7 +3915,7 @@
       "unit": "m",
       "date": "2026-03-14",
       "venue": "Randal Tyson Indoor Center, Fayetteville, AR (USA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Apolena ŠVÁBÍKOVÁ",
@@ -3926,7 +3926,7 @@
       "unit": "m",
       "date": "2026-07-05",
       "venue": "Pl. Panathinaikou Stadiou, Athina (GRE)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Mia MORELLO",
@@ -3937,7 +3937,7 @@
       "unit": "m",
       "date": "2026-01-24",
       "venue": "Illinois-Armory, Champaign, IL (USA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Iliana TRIANTAFYLLOU",
@@ -3948,7 +3948,7 @@
       "unit": "m",
       "date": "2026-02-13",
       "venue": "Convention Center, Albuquerque, NM (USA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Veronica VACCA",
@@ -3959,7 +3959,7 @@
       "unit": "m",
       "date": "2026-02-26",
       "venue": "Fall Creek Pavilion, Indianapolis, IN (USA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Misaki MOROTA",
@@ -3970,7 +3970,7 @@
       "unit": "m",
       "date": "2026-05-10",
       "venue": "Yanmar Stadium Nagai, Osaka (JPN)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Irina MIKHAYLOVA",
@@ -3981,7 +3981,7 @@
       "unit": "m",
       "date": "2026-06-07",
       "venue": "Vorobyevi Gory, Moskva (RUS)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Sonia MALAVISI",
@@ -3992,7 +3992,7 @@
       "unit": "m",
       "date": "2026-06-27",
       "venue": "Stade du Parc de la Dodaine, Nivelles (BEL)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Ansume DE BEER",
@@ -4003,7 +4003,7 @@
       "unit": "m",
       "date": "2026-06-30",
       "venue": "Stade universitaire de St-Léonard, Fribourg (SUI)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Elina LAMPELA",
@@ -4014,7 +4014,7 @@
       "unit": "m",
       "date": "2026-07-01",
       "venue": "Raatin Stadion, Oulu (FIN)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Kajsa ROTH",
@@ -4025,7 +4025,7 @@
       "unit": "m",
       "date": "2026-08-11",
       "venue": "Alexander Stadium, Birmingham (GBR)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Sara BORTON",
@@ -4036,7 +4036,7 @@
       "unit": "m",
       "date": "2026-06-11",
       "venue": "Hayward Field, Eugene, OR (USA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Aliyah FERTIG",
@@ -4047,7 +4047,7 @@
       "unit": "m",
       "date": "2026-02-20",
       "venue": "Cliff Rovelto Indoor Track, Manhattan, KS (USA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Emily FITZSIMMONS",
@@ -4058,7 +4058,7 @@
       "unit": "m",
       "date": "2026-04-18",
       "venue": "Hayward Field, Eugene, OR (USA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Elise DE JONG",
@@ -4069,7 +4069,7 @@
       "unit": "m",
       "date": "2026-01-17",
       "venue": "ARV Ilion, Zoetermeer (NED) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Chiara SISTERMANN",
@@ -4080,7 +4080,7 @@
       "unit": "m",
       "date": "2026-02-07",
       "venue": "Rector Fieldhouse, Blacksburg, VA (USA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Mya STRAHM",
@@ -4091,7 +4091,7 @@
       "unit": "m",
       "date": "2026-02-07",
       "venue": "Rector Fieldhouse, Blacksburg, VA (USA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Monica CLEMENTE",
@@ -4102,7 +4102,7 @@
       "unit": "m",
       "date": "2026-02-14",
       "venue": "Velódromo Luis Puig, Valencia (ESP) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Moana PEYRARD",
@@ -4113,7 +4113,7 @@
       "unit": "m",
       "date": "2026-07-17",
       "venue": "Stade Charléty, Paris (FRA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Emma BRENTEL",
@@ -4124,7 +4124,7 @@
       "unit": "m",
       "date": "2026-08-09",
       "venue": "Place Centrale, Martigny (SUI)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Krystsina KANTSAVENKA",
@@ -4135,7 +4135,7 @@
       "unit": "m",
       "date": "2026-01-31",
       "venue": "Olimpiyets Arena, Mogilyov (BLR) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Albane DORDAIN",
@@ -4146,7 +4146,7 @@
       "unit": "m",
       "date": "2026-02-28",
       "venue": "Stadium Jean-Pellez, Aubière (FRA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Zofia GABORSKA",
@@ -4157,7 +4157,7 @@
       "unit": "m",
       "date": "2026-02-28",
       "venue": "Kujawsko-Pomorska Arena, Toruń (POL) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Paige SOMMERS",
@@ -4168,7 +4168,7 @@
       "unit": "m",
       "date": "2026-04-18",
       "venue": "Hilmer Lodge Stadium, Walnut, CA (USA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Jennifer ELIZAROV",
@@ -4179,7 +4179,7 @@
       "unit": "m",
       "date": "2026-06-21",
       "venue": "Terry Fox AF, Ottawa (CAN)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Virginia SCARDANZAN",
@@ -4190,7 +4190,7 @@
       "unit": "m",
       "date": "2026-07-05",
       "venue": "Piazza Unità d'Italia, Novellara (ITA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Kashlee DICKINSON",
@@ -4201,7 +4201,7 @@
       "unit": "m",
       "date": "2026-02-06",
       "venue": "Convention Center, Albuquerque, NM (USA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Alencia LENTZ",
@@ -4212,7 +4212,7 @@
       "unit": "m",
       "date": "2026-04-24",
       "venue": "Clyde Hart Track & Field Stadium, Waco, TX (USA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Isabelle PETERS",
@@ -4223,7 +4223,7 @@
       "unit": "m",
       "date": "2026-03-14",
       "venue": "Virginia Beach Sports Center, Virginia Beach, VA (USA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Skye TOLBERT",
@@ -4234,7 +4234,7 @@
       "unit": "m",
       "date": "2026-04-10",
       "venue": "Tom Black Track at LaPorte Stadium, Knoxville, TN (USA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Abby KNOUFF",
@@ -4245,7 +4245,7 @@
       "unit": "m",
       "date": "2026-04-23",
       "venue": "Cardinal Park, Louisville, KY (USA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Heather ABADIE",
@@ -4256,7 +4256,7 @@
       "unit": "m",
       "date": "2026-05-02",
       "venue": "Cushing Stadium, College Station, TX (USA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Sarah Franziska VOGEL",
@@ -4267,7 +4267,7 @@
       "unit": "m",
       "date": "2026-08-05",
       "venue": "Stadion, Jockgrim (GER)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Tessa MUDD",
@@ -4278,7 +4278,7 @@
       "unit": "m",
       "date": "2026-04-11",
       "venue": "Spec Towns Track, Athens, GA (USA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Hanah GRACEE",
@@ -4289,7 +4289,7 @@
       "unit": "m",
       "date": "2026-05-16",
       "venue": "Hutsell-Rosen Track, Auburn, AL (USA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Anastasia BOUMPOULIDI",
@@ -4300,7 +4300,7 @@
       "unit": "m",
       "date": "2026-07-05",
       "venue": "Municipal Stadium, Trikala (GRE)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Allika Inkeri MOSER",
@@ -4311,7 +4311,7 @@
       "unit": "m",
       "date": "2026-01-18",
       "venue": "Coque Sport Center, Luxembourg (LUX) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Maryna KYLYPKO",
@@ -4322,7 +4322,7 @@
       "unit": "m",
       "date": "2026-01-30",
       "venue": "Palais des Sports Caen la Mer, Caen (FRA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Nastassja CAMPBELL",
@@ -4333,7 +4333,7 @@
       "unit": "m",
       "date": "2026-02-01",
       "venue": "Armory Track&Field Center, New York, NY (USA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Eva LOWDER",
@@ -4344,7 +4344,7 @@
       "unit": "m",
       "date": "2026-02-13",
       "venue": "Convention Center, Albuquerque, NM (USA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Madi WULFEKOTTER",
@@ -4355,7 +4355,7 @@
       "unit": "m",
       "date": "2026-02-14",
       "venue": "Randal Tyson Indoor Center, Fayetteville, AR (USA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Alyssa QUINONES-MIXON",
@@ -4366,7 +4366,7 @@
       "unit": "m",
       "date": "2026-02-26",
       "venue": "R.A. \"Murray\" Fasken Indoor Track Stadium, College Station, TX (USA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Inna GALCHINA",
@@ -4377,7 +4377,7 @@
       "unit": "m",
       "date": "2026-02-28",
       "venue": "Spartak Stadium, Yuzhno-Sakhalinsk (RUS) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Moana-Lou KLEINER",
@@ -4388,7 +4388,7 @@
       "unit": "m",
       "date": "2026-03-01",
       "venue": "Helmut-Körnig-Halle, Dortmund (GER) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Lingxia WEI",
@@ -4399,7 +4399,7 @@
       "unit": "m",
       "date": "2026-03-21",
       "venue": "Shanghai Sports University Indoor Athletics Stadium, Shanghai (CHN) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Nina KENNEDY",
@@ -4410,7 +4410,7 @@
       "unit": "m",
       "date": "2026-07-10",
       "venue": "Stade Louis II, Monaco (MON)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Polina KNOROZ",
@@ -4421,7 +4421,7 @@
       "unit": "m",
       "date": "2026-06-20",
       "venue": "Olympic Stadium, Cheboksary (RUS)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Sandi MORRIS",
@@ -4432,7 +4432,7 @@
       "unit": "m",
       "date": "2026-07-25",
       "venue": "Icahn Stadium, New York, NY (USA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Hana MOLL",
@@ -4443,7 +4443,7 @@
       "unit": "m",
       "date": "2026-01-30",
       "venue": "Dempsey Indoor, Seattle, WA (USA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Molly CAUDERY",
@@ -4454,7 +4454,7 @@
       "unit": "m",
       "date": "2026-03-22",
       "venue": "Kujawsko-Pomorska Arena, Toruń (POL) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Amanda MOLL",
@@ -4465,7 +4465,7 @@
       "unit": "m",
       "date": "2026-06-11",
       "venue": "Hayward Field, Eugene, OR (USA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Eliza MCCARTNEY",
@@ -4476,7 +4476,7 @@
       "unit": "m",
       "date": "2026-03-07",
       "venue": "Douglas Track & Field, Auckland (NZL)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Imogen AYRIS",
@@ -4487,7 +4487,7 @@
       "unit": "m",
       "date": "2026-06-03",
       "venue": "Paavo Nurmen Stadion, Turku (FIN)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Wilma HELTELÄ",
@@ -4498,7 +4498,7 @@
       "unit": "m",
       "date": "2026-07-05",
       "venue": "Pl. Panathinaikou Stadiou, Athina (GRE)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Tina ŠUTEJ",
@@ -4509,7 +4509,7 @@
       "unit": "m",
       "date": "2026-02-08",
       "venue": "L'Anneau-Halle d'athlétisme de Metz, Metz (FRA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Angelica MOSER",
@@ -4520,7 +4520,7 @@
       "unit": "m",
       "date": "2026-06-04",
       "venue": "Stadio Olimpico, Roma (ITA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Katie MOON",
@@ -4531,7 +4531,7 @@
       "unit": "m",
       "date": "2026-07-03",
       "venue": "Hayward Field, Eugene, OR (USA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Amálie ŠVÁBÍKOVÁ",
@@ -4542,7 +4542,7 @@
       "unit": "m",
       "date": "2026-02-22",
       "venue": "Maison des Sports, Clermont-Ferrand (FRA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Marie-Julie BONNIN",
@@ -4553,7 +4553,7 @@
       "unit": "m",
       "date": "2026-02-22",
       "venue": "Maison des Sports, Clermont-Ferrand (FRA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Gabriela LEON",
@@ -4564,7 +4564,7 @@
       "unit": "m",
       "date": "2026-04-23",
       "venue": "Cardinal Park, Louisville, KY (USA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Chunge NIU",
@@ -4575,7 +4575,7 @@
       "unit": "m",
       "date": "2026-05-31",
       "venue": "Sports Center, Bengbu (CHN)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Chloe TIMBERG",
@@ -4586,7 +4586,7 @@
       "unit": "m",
       "date": "2026-07-11",
       "venue": "Handy Park, Beale Street, Memphis, TN (USA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Olivia MCTAGGART",
@@ -4597,7 +4597,7 @@
       "unit": "m",
       "date": "2026-06-14",
       "venue": "Sportcity Regional Arena, Manchester (GBR)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Juliana DE MENIS CAMPOS",
@@ -4608,7 +4608,7 @@
       "unit": "m",
       "date": "2026-03-22",
       "venue": "Kujawsko-Pomorska Arena, Toruń (POL) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Jessica MERCIER",
@@ -4619,7 +4619,7 @@
       "unit": "m",
       "date": "2026-03-22",
       "venue": "Kujawsko-Pomorska Arena, Toruń (POL) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Emily GROVE",
@@ -4630,7 +4630,7 @@
       "unit": "m",
       "date": "2026-07-03",
       "venue": "Hayward Field, Eugene, OR (USA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Kitty Friele FAYE",
@@ -4641,7 +4641,7 @@
       "unit": "m",
       "date": "2026-07-16",
       "venue": "Fana Stadion, Bergen (NOR)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Tatyana KALININA",
@@ -4652,17 +4652,17 @@
       "unit": "m",
       "date": "2026-07-25",
       "venue": "Kalininets Stadium, Yekaterinburg (RUS)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Brynn KING",
       "country": "USA",
       "gender": "w",
       "ageClass": "u20",
-      "mark": 4.64,
+      "mark": 4.65,
       "unit": "m",
-      "date": "2026-06-05",
-      "venue": "G-Town Track, Gräfelfing (GER)",
+      "date": "2026-08-19",
+      "venue": "Leppävaaran Stadion, Espoo (FIN)",
       "isNew": true
     },
     {
@@ -4674,7 +4674,7 @@
       "unit": "m",
       "date": "2026-06-11",
       "venue": "Hayward Field, Eugene, OR (USA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Ashley CALLAHAN",
@@ -4685,7 +4685,7 @@
       "unit": "m",
       "date": "2026-06-11",
       "venue": "Hayward Field, Eugene, OR (USA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Marleen MÜLLA",
@@ -4696,7 +4696,7 @@
       "unit": "m",
       "date": "2026-02-20",
       "venue": "Bob Devaney Sports Center, Lincoln, NE (USA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Anicka NEWELL",
@@ -4707,7 +4707,7 @@
       "unit": "m",
       "date": "2026-02-20",
       "venue": "Randal Tyson Indoor Center, Fayetteville, AR (USA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Lene Onsrud RETZIUS",
@@ -4718,7 +4718,7 @@
       "unit": "m",
       "date": "2026-07-05",
       "venue": "Pl. Panathinaikou Stadiou, Athina (GRE)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Marijn KIEFT",
@@ -4729,7 +4729,7 @@
       "unit": "m",
       "date": "2026-01-17",
       "venue": "ARV Ilion, Zoetermeer (NED) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Jacqueline OTCHERE",
@@ -4740,7 +4740,7 @@
       "unit": "m",
       "date": "2026-02-08",
       "venue": "Helmut-Körnig-Halle, Dortmund (GER) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Berenice PETIT",
@@ -4751,7 +4751,7 @@
       "unit": "m",
       "date": "2026-06-05",
       "venue": "Stade Omnisports de La Source, Orléans (FRA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Roberta BRUNI",
@@ -4762,7 +4762,7 @@
       "unit": "m",
       "date": "2026-06-21",
       "venue": "Stadio Guidobaldi, Rieti (ITA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Anjuli KNÄSCHE",
@@ -4773,7 +4773,7 @@
       "unit": "m",
       "date": "2026-07-19",
       "venue": "Waldstadion, Walldorf (GER)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Tori THOMAS",
@@ -4784,7 +4784,7 @@
       "unit": "m",
       "date": "2026-07-25",
       "venue": "Icahn Stadium, New York, NY (USA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Elien VEKEMANS",
@@ -4795,7 +4795,7 @@
       "unit": "m",
       "date": "2026-08-13",
       "venue": "Alexander Stadium, Birmingham (GBR)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Margot CHEVRIER",
@@ -4806,7 +4806,7 @@
       "unit": "m",
       "date": "2026-08-13",
       "venue": "Alexander Stadium, Birmingham (GBR)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Aikaterini STEFANIDI",
@@ -4817,7 +4817,7 @@
       "unit": "m",
       "date": "2026-08-13",
       "venue": "Alexander Stadium, Birmingham (GBR)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Molly HAYWOOD",
@@ -4828,7 +4828,7 @@
       "unit": "m",
       "date": "2026-06-11",
       "venue": "Hayward Field, Eugene, OR (USA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Mason MEINERSHAGEN",
@@ -4839,7 +4839,7 @@
       "unit": "m",
       "date": "2026-04-18",
       "venue": "Jack Rose Track, Long Beach, CA (USA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Saga ANDERSSON",
@@ -4850,7 +4850,7 @@
       "unit": "m",
       "date": "2026-06-19",
       "venue": "Keuruun keskuskenttä, Keuruu (FIN)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Rugilė MIKLYČIŪTĖ",
@@ -4861,7 +4861,7 @@
       "unit": "m",
       "date": "2026-06-27",
       "venue": "Someron urheilukenttä, Somero (FIN)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Ali SAHAIDA",
@@ -4872,7 +4872,7 @@
       "unit": "m",
       "date": "2026-03-14",
       "venue": "Randal Tyson Indoor Center, Fayetteville, AR (USA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Payton PHILLIPS",
@@ -4883,7 +4883,7 @@
       "unit": "m",
       "date": "2026-05-23",
       "venue": "Drake Stadium, Los Angeles, CA (USA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Sydney HORN",
@@ -4894,7 +4894,7 @@
       "unit": "m",
       "date": "2026-01-23",
       "venue": "Rector Fieldhouse, Blacksburg, VA (USA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Nayah CAUVIN",
@@ -4905,7 +4905,7 @@
       "unit": "m",
       "date": "2026-02-28",
       "venue": "Stadium Jean-Pellez, Aubière (FRA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Hannah GRACE",
@@ -4916,7 +4916,7 @@
       "unit": "m",
       "date": "2026-06-11",
       "venue": "Hayward Field, Eugene, OR (USA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Tenly KUHN",
@@ -4927,7 +4927,7 @@
       "unit": "m",
       "date": "2026-04-10",
       "venue": "Clyde Hart Track & Field Stadium, Waco, TX (USA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Hanga KLEKNER",
@@ -4938,7 +4938,7 @@
       "unit": "m",
       "date": "2026-01-22",
       "venue": "Sätrahallen, Stockholm (SWE) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Gemma TUTTON",
@@ -4949,7 +4949,7 @@
       "unit": "m",
       "date": "2026-02-21",
       "venue": "JDL Fast Track, Winston Salem, NC (USA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Ariadni ADAMOPOULOU",
@@ -4960,7 +4960,7 @@
       "unit": "m",
       "date": "2026-02-21",
       "venue": "Atletska dvorana, Beograd (SRB) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Nicole KRUTILOVÁ",
@@ -4971,7 +4971,7 @@
       "unit": "m",
       "date": "2026-07-02",
       "venue": "Stadion Míru, Tábor (CZE)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Elisa MOLINAROLO",
@@ -4982,7 +4982,7 @@
       "unit": "m",
       "date": "2026-07-25",
       "venue": "Stadio Luigi Ridolfi, Firenze (ITA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Lexi EVANS",
@@ -4993,7 +4993,7 @@
       "unit": "m",
       "date": "2026-02-13",
       "venue": "Dempsey Indoor, Seattle, WA (USA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Jathiyah MUHAMMAD",
@@ -5004,7 +5004,7 @@
       "unit": "m",
       "date": "2026-03-14",
       "venue": "Randal Tyson Indoor Center, Fayetteville, AR (USA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Lilyana CARLSON",
@@ -5015,7 +5015,7 @@
       "unit": "m",
       "date": "2026-03-14",
       "venue": "Randal Tyson Indoor Center, Fayetteville, AR (USA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Apolena ŠVÁBÍKOVÁ",
@@ -5026,7 +5026,7 @@
       "unit": "m",
       "date": "2026-07-05",
       "venue": "Pl. Panathinaikou Stadiou, Athina (GRE)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Mia MORELLO",
@@ -5037,7 +5037,7 @@
       "unit": "m",
       "date": "2026-01-24",
       "venue": "Illinois-Armory, Champaign, IL (USA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Iliana TRIANTAFYLLOU",
@@ -5048,7 +5048,7 @@
       "unit": "m",
       "date": "2026-02-13",
       "venue": "Convention Center, Albuquerque, NM (USA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Veronica VACCA",
@@ -5059,7 +5059,7 @@
       "unit": "m",
       "date": "2026-02-26",
       "venue": "Fall Creek Pavilion, Indianapolis, IN (USA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Misaki MOROTA",
@@ -5070,7 +5070,7 @@
       "unit": "m",
       "date": "2026-05-10",
       "venue": "Yanmar Stadium Nagai, Osaka (JPN)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Irina MIKHAYLOVA",
@@ -5081,7 +5081,7 @@
       "unit": "m",
       "date": "2026-06-07",
       "venue": "Vorobyevi Gory, Moskva (RUS)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Sonia MALAVISI",
@@ -5092,7 +5092,7 @@
       "unit": "m",
       "date": "2026-06-27",
       "venue": "Stade du Parc de la Dodaine, Nivelles (BEL)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Ansume DE BEER",
@@ -5103,7 +5103,7 @@
       "unit": "m",
       "date": "2026-06-30",
       "venue": "Stade universitaire de St-Léonard, Fribourg (SUI)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Elina LAMPELA",
@@ -5114,7 +5114,7 @@
       "unit": "m",
       "date": "2026-07-01",
       "venue": "Raatin Stadion, Oulu (FIN)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Kajsa ROTH",
@@ -5125,7 +5125,7 @@
       "unit": "m",
       "date": "2026-08-11",
       "venue": "Alexander Stadium, Birmingham (GBR)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Sara BORTON",
@@ -5136,7 +5136,7 @@
       "unit": "m",
       "date": "2026-06-11",
       "venue": "Hayward Field, Eugene, OR (USA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Aliyah FERTIG",
@@ -5147,7 +5147,7 @@
       "unit": "m",
       "date": "2026-02-20",
       "venue": "Cliff Rovelto Indoor Track, Manhattan, KS (USA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Emily FITZSIMMONS",
@@ -5158,7 +5158,7 @@
       "unit": "m",
       "date": "2026-04-18",
       "venue": "Hayward Field, Eugene, OR (USA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Elise DE JONG",
@@ -5169,7 +5169,7 @@
       "unit": "m",
       "date": "2026-01-17",
       "venue": "ARV Ilion, Zoetermeer (NED) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Chiara SISTERMANN",
@@ -5180,7 +5180,7 @@
       "unit": "m",
       "date": "2026-02-07",
       "venue": "Rector Fieldhouse, Blacksburg, VA (USA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Mya STRAHM",
@@ -5191,7 +5191,7 @@
       "unit": "m",
       "date": "2026-02-07",
       "venue": "Rector Fieldhouse, Blacksburg, VA (USA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Monica CLEMENTE",
@@ -5202,7 +5202,7 @@
       "unit": "m",
       "date": "2026-02-14",
       "venue": "Velódromo Luis Puig, Valencia (ESP) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Moana PEYRARD",
@@ -5213,7 +5213,7 @@
       "unit": "m",
       "date": "2026-07-17",
       "venue": "Stade Charléty, Paris (FRA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Emma BRENTEL",
@@ -5224,7 +5224,7 @@
       "unit": "m",
       "date": "2026-08-09",
       "venue": "Place Centrale, Martigny (SUI)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Krystsina KANTSAVENKA",
@@ -5235,7 +5235,7 @@
       "unit": "m",
       "date": "2026-01-31",
       "venue": "Olimpiyets Arena, Mogilyov (BLR) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Albane DORDAIN",
@@ -5246,7 +5246,7 @@
       "unit": "m",
       "date": "2026-02-28",
       "venue": "Stadium Jean-Pellez, Aubière (FRA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Zofia GABORSKA",
@@ -5257,7 +5257,7 @@
       "unit": "m",
       "date": "2026-02-28",
       "venue": "Kujawsko-Pomorska Arena, Toruń (POL) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Paige SOMMERS",
@@ -5268,7 +5268,7 @@
       "unit": "m",
       "date": "2026-04-18",
       "venue": "Hilmer Lodge Stadium, Walnut, CA (USA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Jennifer ELIZAROV",
@@ -5279,7 +5279,7 @@
       "unit": "m",
       "date": "2026-06-21",
       "venue": "Terry Fox AF, Ottawa (CAN)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Virginia SCARDANZAN",
@@ -5290,7 +5290,7 @@
       "unit": "m",
       "date": "2026-07-05",
       "venue": "Piazza Unità d'Italia, Novellara (ITA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Kashlee DICKINSON",
@@ -5301,7 +5301,7 @@
       "unit": "m",
       "date": "2026-02-06",
       "venue": "Convention Center, Albuquerque, NM (USA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Alencia LENTZ",
@@ -5312,7 +5312,7 @@
       "unit": "m",
       "date": "2026-04-24",
       "venue": "Clyde Hart Track & Field Stadium, Waco, TX (USA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Isabelle PETERS",
@@ -5323,7 +5323,7 @@
       "unit": "m",
       "date": "2026-03-14",
       "venue": "Virginia Beach Sports Center, Virginia Beach, VA (USA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Skye TOLBERT",
@@ -5334,7 +5334,7 @@
       "unit": "m",
       "date": "2026-04-10",
       "venue": "Tom Black Track at LaPorte Stadium, Knoxville, TN (USA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Abby KNOUFF",
@@ -5345,7 +5345,7 @@
       "unit": "m",
       "date": "2026-04-23",
       "venue": "Cardinal Park, Louisville, KY (USA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Heather ABADIE",
@@ -5356,7 +5356,7 @@
       "unit": "m",
       "date": "2026-05-02",
       "venue": "Cushing Stadium, College Station, TX (USA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Sarah Franziska VOGEL",
@@ -5367,7 +5367,7 @@
       "unit": "m",
       "date": "2026-08-05",
       "venue": "Stadion, Jockgrim (GER)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Tessa MUDD",
@@ -5378,7 +5378,7 @@
       "unit": "m",
       "date": "2026-04-11",
       "venue": "Spec Towns Track, Athens, GA (USA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Hanah GRACEE",
@@ -5389,7 +5389,7 @@
       "unit": "m",
       "date": "2026-05-16",
       "venue": "Hutsell-Rosen Track, Auburn, AL (USA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Anastasia BOUMPOULIDI",
@@ -5400,7 +5400,7 @@
       "unit": "m",
       "date": "2026-07-05",
       "venue": "Municipal Stadium, Trikala (GRE)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Allika Inkeri MOSER",
@@ -5411,7 +5411,7 @@
       "unit": "m",
       "date": "2026-01-18",
       "venue": "Coque Sport Center, Luxembourg (LUX) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Maryna KYLYPKO",
@@ -5422,7 +5422,7 @@
       "unit": "m",
       "date": "2026-01-30",
       "venue": "Palais des Sports Caen la Mer, Caen (FRA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Nastassja CAMPBELL",
@@ -5433,7 +5433,7 @@
       "unit": "m",
       "date": "2026-02-01",
       "venue": "Armory Track&Field Center, New York, NY (USA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Eva LOWDER",
@@ -5444,7 +5444,7 @@
       "unit": "m",
       "date": "2026-02-13",
       "venue": "Convention Center, Albuquerque, NM (USA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Madi WULFEKOTTER",
@@ -5455,7 +5455,7 @@
       "unit": "m",
       "date": "2026-02-14",
       "venue": "Randal Tyson Indoor Center, Fayetteville, AR (USA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Alyssa QUINONES-MIXON",
@@ -5466,7 +5466,7 @@
       "unit": "m",
       "date": "2026-02-26",
       "venue": "R.A. \"Murray\" Fasken Indoor Track Stadium, College Station, TX (USA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Inna GALCHINA",
@@ -5477,7 +5477,7 @@
       "unit": "m",
       "date": "2026-02-28",
       "venue": "Spartak Stadium, Yuzhno-Sakhalinsk (RUS) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Moana-Lou KLEINER",
@@ -5488,7 +5488,7 @@
       "unit": "m",
       "date": "2026-03-01",
       "venue": "Helmut-Körnig-Halle, Dortmund (GER) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Lingxia WEI",
@@ -5499,7 +5499,7 @@
       "unit": "m",
       "date": "2026-03-21",
       "venue": "Shanghai Sports University Indoor Athletics Stadium, Shanghai (CHN) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Nina KENNEDY",
@@ -5510,7 +5510,7 @@
       "unit": "m",
       "date": "2026-07-10",
       "venue": "Stade Louis II, Monaco (MON)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Polina KNOROZ",
@@ -5521,7 +5521,7 @@
       "unit": "m",
       "date": "2026-06-20",
       "venue": "Olympic Stadium, Cheboksary (RUS)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Sandi MORRIS",
@@ -5532,7 +5532,7 @@
       "unit": "m",
       "date": "2026-07-25",
       "venue": "Icahn Stadium, New York, NY (USA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Hana MOLL",
@@ -5543,7 +5543,7 @@
       "unit": "m",
       "date": "2026-01-30",
       "venue": "Dempsey Indoor, Seattle, WA (USA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Molly CAUDERY",
@@ -5554,7 +5554,7 @@
       "unit": "m",
       "date": "2026-03-22",
       "venue": "Kujawsko-Pomorska Arena, Toruń (POL) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Amanda MOLL",
@@ -5565,7 +5565,7 @@
       "unit": "m",
       "date": "2026-06-11",
       "venue": "Hayward Field, Eugene, OR (USA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Eliza MCCARTNEY",
@@ -5576,7 +5576,7 @@
       "unit": "m",
       "date": "2026-03-07",
       "venue": "Douglas Track & Field, Auckland (NZL)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Imogen AYRIS",
@@ -5587,7 +5587,7 @@
       "unit": "m",
       "date": "2026-06-03",
       "venue": "Paavo Nurmen Stadion, Turku (FIN)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Wilma HELTELÄ",
@@ -5598,7 +5598,7 @@
       "unit": "m",
       "date": "2026-07-05",
       "venue": "Pl. Panathinaikou Stadiou, Athina (GRE)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Tina ŠUTEJ",
@@ -5609,7 +5609,7 @@
       "unit": "m",
       "date": "2026-02-08",
       "venue": "L'Anneau-Halle d'athlétisme de Metz, Metz (FRA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Angelica MOSER",
@@ -5620,7 +5620,7 @@
       "unit": "m",
       "date": "2026-06-04",
       "venue": "Stadio Olimpico, Roma (ITA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Katie MOON",
@@ -5631,7 +5631,7 @@
       "unit": "m",
       "date": "2026-07-03",
       "venue": "Hayward Field, Eugene, OR (USA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Amálie ŠVÁBÍKOVÁ",
@@ -5642,7 +5642,7 @@
       "unit": "m",
       "date": "2026-02-22",
       "venue": "Maison des Sports, Clermont-Ferrand (FRA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Marie-Julie BONNIN",
@@ -5653,7 +5653,7 @@
       "unit": "m",
       "date": "2026-02-22",
       "venue": "Maison des Sports, Clermont-Ferrand (FRA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Gabriela LEON",
@@ -5664,7 +5664,7 @@
       "unit": "m",
       "date": "2026-04-23",
       "venue": "Cardinal Park, Louisville, KY (USA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Chunge NIU",
@@ -5675,7 +5675,7 @@
       "unit": "m",
       "date": "2026-05-31",
       "venue": "Sports Center, Bengbu (CHN)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Chloe TIMBERG",
@@ -5686,7 +5686,7 @@
       "unit": "m",
       "date": "2026-07-11",
       "venue": "Handy Park, Beale Street, Memphis, TN (USA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Olivia MCTAGGART",
@@ -5697,7 +5697,7 @@
       "unit": "m",
       "date": "2026-06-14",
       "venue": "Sportcity Regional Arena, Manchester (GBR)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Juliana DE MENIS CAMPOS",
@@ -5708,7 +5708,7 @@
       "unit": "m",
       "date": "2026-03-22",
       "venue": "Kujawsko-Pomorska Arena, Toruń (POL) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Jessica MERCIER",
@@ -5719,7 +5719,7 @@
       "unit": "m",
       "date": "2026-03-22",
       "venue": "Kujawsko-Pomorska Arena, Toruń (POL) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Emily GROVE",
@@ -5730,7 +5730,7 @@
       "unit": "m",
       "date": "2026-07-03",
       "venue": "Hayward Field, Eugene, OR (USA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Kitty Friele FAYE",
@@ -5741,7 +5741,7 @@
       "unit": "m",
       "date": "2026-07-16",
       "venue": "Fana Stadion, Bergen (NOR)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Tatyana KALININA",
@@ -5752,17 +5752,17 @@
       "unit": "m",
       "date": "2026-07-25",
       "venue": "Kalininets Stadium, Yekaterinburg (RUS)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Brynn KING",
       "country": "USA",
       "gender": "w",
       "ageClass": "senior",
-      "mark": 4.64,
+      "mark": 4.65,
       "unit": "m",
-      "date": "2026-06-05",
-      "venue": "G-Town Track, Gräfelfing (GER)",
+      "date": "2026-08-19",
+      "venue": "Leppävaaran Stadion, Espoo (FIN)",
       "isNew": true
     },
     {
@@ -5774,7 +5774,7 @@
       "unit": "m",
       "date": "2026-06-11",
       "venue": "Hayward Field, Eugene, OR (USA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Ashley CALLAHAN",
@@ -5785,7 +5785,7 @@
       "unit": "m",
       "date": "2026-06-11",
       "venue": "Hayward Field, Eugene, OR (USA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Marleen MÜLLA",
@@ -5796,7 +5796,7 @@
       "unit": "m",
       "date": "2026-02-20",
       "venue": "Bob Devaney Sports Center, Lincoln, NE (USA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Anicka NEWELL",
@@ -5807,7 +5807,7 @@
       "unit": "m",
       "date": "2026-02-20",
       "venue": "Randal Tyson Indoor Center, Fayetteville, AR (USA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Lene Onsrud RETZIUS",
@@ -5818,7 +5818,7 @@
       "unit": "m",
       "date": "2026-07-05",
       "venue": "Pl. Panathinaikou Stadiou, Athina (GRE)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Marijn KIEFT",
@@ -5829,7 +5829,7 @@
       "unit": "m",
       "date": "2026-01-17",
       "venue": "ARV Ilion, Zoetermeer (NED) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Jacqueline OTCHERE",
@@ -5840,7 +5840,7 @@
       "unit": "m",
       "date": "2026-02-08",
       "venue": "Helmut-Körnig-Halle, Dortmund (GER) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Berenice PETIT",
@@ -5851,7 +5851,7 @@
       "unit": "m",
       "date": "2026-06-05",
       "venue": "Stade Omnisports de La Source, Orléans (FRA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Roberta BRUNI",
@@ -5862,7 +5862,7 @@
       "unit": "m",
       "date": "2026-06-21",
       "venue": "Stadio Guidobaldi, Rieti (ITA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Anjuli KNÄSCHE",
@@ -5873,7 +5873,7 @@
       "unit": "m",
       "date": "2026-07-19",
       "venue": "Waldstadion, Walldorf (GER)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Tori THOMAS",
@@ -5884,7 +5884,7 @@
       "unit": "m",
       "date": "2026-07-25",
       "venue": "Icahn Stadium, New York, NY (USA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Elien VEKEMANS",
@@ -5895,7 +5895,7 @@
       "unit": "m",
       "date": "2026-08-13",
       "venue": "Alexander Stadium, Birmingham (GBR)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Margot CHEVRIER",
@@ -5906,7 +5906,7 @@
       "unit": "m",
       "date": "2026-08-13",
       "venue": "Alexander Stadium, Birmingham (GBR)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Aikaterini STEFANIDI",
@@ -5917,7 +5917,7 @@
       "unit": "m",
       "date": "2026-08-13",
       "venue": "Alexander Stadium, Birmingham (GBR)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Molly HAYWOOD",
@@ -5928,7 +5928,7 @@
       "unit": "m",
       "date": "2026-06-11",
       "venue": "Hayward Field, Eugene, OR (USA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Mason MEINERSHAGEN",
@@ -5939,7 +5939,7 @@
       "unit": "m",
       "date": "2026-04-18",
       "venue": "Jack Rose Track, Long Beach, CA (USA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Saga ANDERSSON",
@@ -5950,7 +5950,7 @@
       "unit": "m",
       "date": "2026-06-19",
       "venue": "Keuruun keskuskenttä, Keuruu (FIN)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Rugilė MIKLYČIŪTĖ",
@@ -5961,7 +5961,7 @@
       "unit": "m",
       "date": "2026-06-27",
       "venue": "Someron urheilukenttä, Somero (FIN)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Ali SAHAIDA",
@@ -5972,7 +5972,7 @@
       "unit": "m",
       "date": "2026-03-14",
       "venue": "Randal Tyson Indoor Center, Fayetteville, AR (USA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Payton PHILLIPS",
@@ -5983,7 +5983,7 @@
       "unit": "m",
       "date": "2026-05-23",
       "venue": "Drake Stadium, Los Angeles, CA (USA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Sydney HORN",
@@ -5994,7 +5994,7 @@
       "unit": "m",
       "date": "2026-01-23",
       "venue": "Rector Fieldhouse, Blacksburg, VA (USA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Nayah CAUVIN",
@@ -6005,7 +6005,7 @@
       "unit": "m",
       "date": "2026-02-28",
       "venue": "Stadium Jean-Pellez, Aubière (FRA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Hannah GRACE",
@@ -6016,7 +6016,7 @@
       "unit": "m",
       "date": "2026-06-11",
       "venue": "Hayward Field, Eugene, OR (USA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Tenly KUHN",
@@ -6027,7 +6027,7 @@
       "unit": "m",
       "date": "2026-04-10",
       "venue": "Clyde Hart Track & Field Stadium, Waco, TX (USA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Hanga KLEKNER",
@@ -6038,7 +6038,7 @@
       "unit": "m",
       "date": "2026-01-22",
       "venue": "Sätrahallen, Stockholm (SWE) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Gemma TUTTON",
@@ -6049,7 +6049,7 @@
       "unit": "m",
       "date": "2026-02-21",
       "venue": "JDL Fast Track, Winston Salem, NC (USA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Ariadni ADAMOPOULOU",
@@ -6060,7 +6060,7 @@
       "unit": "m",
       "date": "2026-02-21",
       "venue": "Atletska dvorana, Beograd (SRB) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Nicole KRUTILOVÁ",
@@ -6071,7 +6071,7 @@
       "unit": "m",
       "date": "2026-07-02",
       "venue": "Stadion Míru, Tábor (CZE)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Elisa MOLINAROLO",
@@ -6082,7 +6082,7 @@
       "unit": "m",
       "date": "2026-07-25",
       "venue": "Stadio Luigi Ridolfi, Firenze (ITA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Lexi EVANS",
@@ -6093,7 +6093,7 @@
       "unit": "m",
       "date": "2026-02-13",
       "venue": "Dempsey Indoor, Seattle, WA (USA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Jathiyah MUHAMMAD",
@@ -6104,7 +6104,7 @@
       "unit": "m",
       "date": "2026-03-14",
       "venue": "Randal Tyson Indoor Center, Fayetteville, AR (USA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Lilyana CARLSON",
@@ -6115,7 +6115,7 @@
       "unit": "m",
       "date": "2026-03-14",
       "venue": "Randal Tyson Indoor Center, Fayetteville, AR (USA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Apolena ŠVÁBÍKOVÁ",
@@ -6126,7 +6126,7 @@
       "unit": "m",
       "date": "2026-07-05",
       "venue": "Pl. Panathinaikou Stadiou, Athina (GRE)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Mia MORELLO",
@@ -6137,7 +6137,7 @@
       "unit": "m",
       "date": "2026-01-24",
       "venue": "Illinois-Armory, Champaign, IL (USA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Iliana TRIANTAFYLLOU",
@@ -6148,7 +6148,7 @@
       "unit": "m",
       "date": "2026-02-13",
       "venue": "Convention Center, Albuquerque, NM (USA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Veronica VACCA",
@@ -6159,7 +6159,7 @@
       "unit": "m",
       "date": "2026-02-26",
       "venue": "Fall Creek Pavilion, Indianapolis, IN (USA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Misaki MOROTA",
@@ -6170,7 +6170,7 @@
       "unit": "m",
       "date": "2026-05-10",
       "venue": "Yanmar Stadium Nagai, Osaka (JPN)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Irina MIKHAYLOVA",
@@ -6181,7 +6181,7 @@
       "unit": "m",
       "date": "2026-06-07",
       "venue": "Vorobyevi Gory, Moskva (RUS)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Sonia MALAVISI",
@@ -6192,7 +6192,7 @@
       "unit": "m",
       "date": "2026-06-27",
       "venue": "Stade du Parc de la Dodaine, Nivelles (BEL)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Ansume DE BEER",
@@ -6203,7 +6203,7 @@
       "unit": "m",
       "date": "2026-06-30",
       "venue": "Stade universitaire de St-Léonard, Fribourg (SUI)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Elina LAMPELA",
@@ -6214,7 +6214,7 @@
       "unit": "m",
       "date": "2026-07-01",
       "venue": "Raatin Stadion, Oulu (FIN)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Kajsa ROTH",
@@ -6225,7 +6225,7 @@
       "unit": "m",
       "date": "2026-08-11",
       "venue": "Alexander Stadium, Birmingham (GBR)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Sara BORTON",
@@ -6236,7 +6236,7 @@
       "unit": "m",
       "date": "2026-06-11",
       "venue": "Hayward Field, Eugene, OR (USA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Aliyah FERTIG",
@@ -6247,7 +6247,7 @@
       "unit": "m",
       "date": "2026-02-20",
       "venue": "Cliff Rovelto Indoor Track, Manhattan, KS (USA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Emily FITZSIMMONS",
@@ -6258,7 +6258,7 @@
       "unit": "m",
       "date": "2026-04-18",
       "venue": "Hayward Field, Eugene, OR (USA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Elise DE JONG",
@@ -6269,7 +6269,7 @@
       "unit": "m",
       "date": "2026-01-17",
       "venue": "ARV Ilion, Zoetermeer (NED) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Chiara SISTERMANN",
@@ -6280,7 +6280,7 @@
       "unit": "m",
       "date": "2026-02-07",
       "venue": "Rector Fieldhouse, Blacksburg, VA (USA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Mya STRAHM",
@@ -6291,7 +6291,7 @@
       "unit": "m",
       "date": "2026-02-07",
       "venue": "Rector Fieldhouse, Blacksburg, VA (USA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Monica CLEMENTE",
@@ -6302,7 +6302,7 @@
       "unit": "m",
       "date": "2026-02-14",
       "venue": "Velódromo Luis Puig, Valencia (ESP) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Moana PEYRARD",
@@ -6313,7 +6313,7 @@
       "unit": "m",
       "date": "2026-07-17",
       "venue": "Stade Charléty, Paris (FRA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Emma BRENTEL",
@@ -6324,7 +6324,7 @@
       "unit": "m",
       "date": "2026-08-09",
       "venue": "Place Centrale, Martigny (SUI)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Krystsina KANTSAVENKA",
@@ -6335,7 +6335,7 @@
       "unit": "m",
       "date": "2026-01-31",
       "venue": "Olimpiyets Arena, Mogilyov (BLR) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Albane DORDAIN",
@@ -6346,7 +6346,7 @@
       "unit": "m",
       "date": "2026-02-28",
       "venue": "Stadium Jean-Pellez, Aubière (FRA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Zofia GABORSKA",
@@ -6357,7 +6357,7 @@
       "unit": "m",
       "date": "2026-02-28",
       "venue": "Kujawsko-Pomorska Arena, Toruń (POL) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Paige SOMMERS",
@@ -6368,7 +6368,7 @@
       "unit": "m",
       "date": "2026-04-18",
       "venue": "Hilmer Lodge Stadium, Walnut, CA (USA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Jennifer ELIZAROV",
@@ -6379,7 +6379,7 @@
       "unit": "m",
       "date": "2026-06-21",
       "venue": "Terry Fox AF, Ottawa (CAN)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Virginia SCARDANZAN",
@@ -6390,7 +6390,7 @@
       "unit": "m",
       "date": "2026-07-05",
       "venue": "Piazza Unità d'Italia, Novellara (ITA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Kashlee DICKINSON",
@@ -6401,7 +6401,7 @@
       "unit": "m",
       "date": "2026-02-06",
       "venue": "Convention Center, Albuquerque, NM (USA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Alencia LENTZ",
@@ -6412,7 +6412,7 @@
       "unit": "m",
       "date": "2026-04-24",
       "venue": "Clyde Hart Track & Field Stadium, Waco, TX (USA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Isabelle PETERS",
@@ -6423,7 +6423,7 @@
       "unit": "m",
       "date": "2026-03-14",
       "venue": "Virginia Beach Sports Center, Virginia Beach, VA (USA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Skye TOLBERT",
@@ -6434,7 +6434,7 @@
       "unit": "m",
       "date": "2026-04-10",
       "venue": "Tom Black Track at LaPorte Stadium, Knoxville, TN (USA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Abby KNOUFF",
@@ -6445,7 +6445,7 @@
       "unit": "m",
       "date": "2026-04-23",
       "venue": "Cardinal Park, Louisville, KY (USA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Heather ABADIE",
@@ -6456,7 +6456,7 @@
       "unit": "m",
       "date": "2026-05-02",
       "venue": "Cushing Stadium, College Station, TX (USA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Sarah Franziska VOGEL",
@@ -6467,7 +6467,7 @@
       "unit": "m",
       "date": "2026-08-05",
       "venue": "Stadion, Jockgrim (GER)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Tessa MUDD",
@@ -6478,7 +6478,7 @@
       "unit": "m",
       "date": "2026-04-11",
       "venue": "Spec Towns Track, Athens, GA (USA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Hanah GRACEE",
@@ -6489,7 +6489,7 @@
       "unit": "m",
       "date": "2026-05-16",
       "venue": "Hutsell-Rosen Track, Auburn, AL (USA)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Anastasia BOUMPOULIDI",
@@ -6500,7 +6500,7 @@
       "unit": "m",
       "date": "2026-07-05",
       "venue": "Municipal Stadium, Trikala (GRE)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Allika Inkeri MOSER",
@@ -6511,7 +6511,7 @@
       "unit": "m",
       "date": "2026-01-18",
       "venue": "Coque Sport Center, Luxembourg (LUX) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Maryna KYLYPKO",
@@ -6522,7 +6522,7 @@
       "unit": "m",
       "date": "2026-01-30",
       "venue": "Palais des Sports Caen la Mer, Caen (FRA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Nastassja CAMPBELL",
@@ -6533,7 +6533,7 @@
       "unit": "m",
       "date": "2026-02-01",
       "venue": "Armory Track&Field Center, New York, NY (USA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Eva LOWDER",
@@ -6544,7 +6544,7 @@
       "unit": "m",
       "date": "2026-02-13",
       "venue": "Convention Center, Albuquerque, NM (USA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Madi WULFEKOTTER",
@@ -6555,7 +6555,7 @@
       "unit": "m",
       "date": "2026-02-14",
       "venue": "Randal Tyson Indoor Center, Fayetteville, AR (USA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Alyssa QUINONES-MIXON",
@@ -6566,7 +6566,7 @@
       "unit": "m",
       "date": "2026-02-26",
       "venue": "R.A. \"Murray\" Fasken Indoor Track Stadium, College Station, TX (USA) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Inna GALCHINA",
@@ -6577,7 +6577,7 @@
       "unit": "m",
       "date": "2026-02-28",
       "venue": "Spartak Stadium, Yuzhno-Sakhalinsk (RUS) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Moana-Lou KLEINER",
@@ -6588,7 +6588,7 @@
       "unit": "m",
       "date": "2026-03-01",
       "venue": "Helmut-Körnig-Halle, Dortmund (GER) (i)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Lingxia WEI",
@@ -6599,7 +6599,7 @@
       "unit": "m",
       "date": "2026-03-21",
       "venue": "Shanghai Sports University Indoor Athletics Stadium, Shanghai (CHN) (i)",
-      "isNew": true
+      "isNew": false
     }
   ]
 }
