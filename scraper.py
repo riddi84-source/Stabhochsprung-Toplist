@@ -29,38 +29,55 @@ DATA_FILE = Path("data.json")
 PREVIOUS_FILE = Path("previous_data.json")
 
 
-async def fetch_toplist(page, gender: str, age_class: str, year: int, limit_rows: int = 100):
-    url = BASE_URL.format(gender=GENDERS[gender], age=AGE_CLASSES[age_class], year=year)
-    await page.goto(url, wait_until="networkidle", timeout=30000)
-    await page.wait_for_selector("table tbody tr", timeout=15000)
+async def fetch_toplist(browser, gender: str, age_class: str, year: int, limit_rows: int = 100):
+    # Wichtig: pro Kategorie ein FRISCHER Browser-Kontext (wie ein neues Inkognito-Fenster).
+    # Grund: worldathletics.org ist eine Single-Page-App mit internem Daten-Cache. Bei
+    # Wiederverwendung derselben Seite über mehrere Kategorien hinweg (z.B. u18 -> u20 ->
+    # senior) kann die App zwischengespeicherte Daten der vorherigen Kategorie anzeigen,
+    # statt neu zu laden. Ein neuer Kontext pro Anfrage vermeidet das zuverlässig.
+    context = await browser.new_context()
+    page = await context.new_page()
+    try:
+        url = BASE_URL.format(gender=GENDERS[gender], age=AGE_CLASSES[age_class], year=year)
+        await page.goto(url, wait_until="networkidle", timeout=30000)
+        await page.wait_for_selector("table tbody tr", timeout=15000)
 
-    rows = await page.query_selector_all("table tbody tr")
-    results = []
-    for row in rows[:limit_rows]:
-        cells = await row.query_selector_all("td")
-        if len(cells) < 8:
-            continue
-        texts = [await c.inner_text() for c in cells]
+        # Sicherheitscheck: steht die erwartete Kategorie im Seitentitel? Falls nicht,
+        # hat die Seite vermutlich nicht die richtige Kategorie geladen.
+        title = await page.title()
+        expected = f"{GENDERS[gender]} - {AGE_CLASSES[age_class]}"
+        if expected not in title.lower().replace("_", " "):
+            print(f"  -> WARNUNG: Seitentitel '{title}' passt nicht zu erwarteter Kategorie '{expected}'")
 
-        try:
-            mark = float(texts[1].strip().replace(",", "."))
-        except ValueError:
-            continue
+        rows = await page.query_selector_all("table tbody tr")
+        results = []
+        for row in rows[:limit_rows]:
+            cells = await row.query_selector_all("td")
+            if len(cells) < 8:
+                continue
+            texts = [await c.inner_text() for c in cells]
 
-        name = texts[3].strip().split("\n")[0]
-        country_match = re.search(r"\b([A-Z]{3})\b", texts[5]) if len(texts) > 5 else None
+            try:
+                mark = float(texts[1].strip().replace(",", "."))
+            except ValueError:
+                continue
 
-        results.append({
-            "name": name,
-            "country": country_match.group(1) if country_match else "",
-            "gender": gender,
-            "ageClass": age_class,
-            "mark": mark,
-            "unit": "m",
-            "date": normalize_date(texts[-2] if len(texts) >= 9 else texts[-1]),
-            "venue": texts[-3] if len(texts) >= 9 else "",
-        })
-    return results
+            name = texts[3].strip().split("\n")[0]
+            country_match = re.search(r"\b([A-Z]{3})\b", texts[5]) if len(texts) > 5 else None
+
+            results.append({
+                "name": name,
+                "country": country_match.group(1) if country_match else "",
+                "gender": gender,
+                "ageClass": age_class,
+                "mark": mark,
+                "unit": "m",
+                "date": normalize_date(texts[-2] if len(texts) >= 9 else texts[-1]),
+                "venue": texts[-3] if len(texts) >= 9 else "",
+            })
+        return results
+    finally:
+        await context.close()
 
 
 def normalize_date(raw: str) -> str:
@@ -86,22 +103,36 @@ def mark_new_entries(current: list[dict], previous: list[dict]) -> list[dict]:
 async def run(year: int | None = None):
     year = year or date.today().year
     all_results = []
+    marks_seen_per_key = {}  # (gender) -> {age_class: set of (name, mark)} für Duplikat-Check
 
     async with async_playwright() as p:
         browser = await p.chromium.launch(headless=True)
-        page = await browser.new_page()
 
         for gender in GENDERS:
+            marks_seen_per_key[gender] = {}
             for age_class in AGE_CLASSES:
                 print(f"Lade {gender} / {age_class} / {year} ...")
                 try:
-                    rows = await fetch_toplist(page, gender, age_class, year)
+                    rows = await fetch_toplist(browser, gender, age_class, year)
                     all_results.extend(rows)
                     print(f"  -> {len(rows)} Einträge")
+                    marks_seen_per_key[gender][age_class] = {(r["name"], r["mark"]) for r in rows}
                 except Exception as e:
                     print(f"  -> FEHLER bei {gender}/{age_class}: {e}")
 
         await browser.close()
+
+    # Duplikat-Check: warnt, falls zwei Kategorien verdächtig identische Top-Ergebnisse
+    # liefern (Hinweis darauf, dass die Filterung nicht gegriffen hat)
+    for gender, per_age in marks_seen_per_key.items():
+        ages = list(per_age.keys())
+        for i in range(len(ages)):
+            for j in range(i + 1, len(ages)):
+                a, b = ages[i], ages[j]
+                overlap = per_age[a] & per_age[b]
+                if len(overlap) >= min(len(per_age[a]), len(per_age[b])) * 0.8 and overlap:
+                    print(f"WARNUNG: {gender}/{a} und {gender}/{b} liefern zu ~{len(overlap)} identische "
+                          f"Top-Einträge — moeglicherweise hat die Alterskategorie-Filterung nicht gegriffen.")
 
     # Diff gegen Vorwoche
     previous = []
