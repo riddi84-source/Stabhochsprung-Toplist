@@ -102,6 +102,7 @@
   .chip[data-age="u20"].active{color:var(--u20); background:#ffcf4d1a;}
   .chip[data-age="senior"].active{color:var(--sen); background:#ff6b6b1a;}
   .chip[data-gender].active{color:var(--amber); border-color:var(--amber); background:var(--amber-dim);}
+  .chip[data-view].active{color:var(--amber); border-color:var(--amber); background:var(--amber-dim);}
 
   select, input[type="text"]{
     background:var(--bg-row);
@@ -237,6 +238,12 @@
     <select id="countryFilter"><option value="">Alle Länder</option></select>
     <input type="text" id="searchBox" placeholder="Name suchen…">
   </div>
+  <div class="row">
+    <div class="chipgroup" id="viewFilters">
+      <button class="chip active" data-view="all">Komplette Bestenliste</button>
+      <button class="chip" data-view="new">Nur neue Leistungen (diese Woche)</button>
+    </div>
+  </div>
 </div>
 
 <div class="meta-bar">
@@ -279,7 +286,7 @@ const DEMO_DATA = [
 
 let DATA = [];
 let MAX_MARK = 1;
-const state = { ages:new Set(), genders:new Set(), country:"", search:"", sortKey:"date", sortDir:-1 };
+const state = { ages:new Set(), genders:new Set(), country:"", search:"", sortKey:"date", sortDir:-1, viewMode:"all" };
 
 function ageLabel(k){
   return {u16:"U16", u18:"U18", u20:"U20", senior:"Erwachsene"}[k] || k;
@@ -298,6 +305,7 @@ function populateCountries(){
 
 function applyFilters(){
   return DATA.filter(d=>{
+    if(state.viewMode==="new" && !d.isNew) return false;
     if(state.ages.size && !state.ages.has(d.ageClass)) return false;
     if(state.genders.size && !state.genders.has(d.gender)) return false;
     if(state.country && d.country !== state.country) return false;
@@ -320,7 +328,8 @@ function render(){
   const rows = sortRows(applyFilters());
   const tbody = document.getElementById("tableBody");
   tbody.innerHTML = "";
-  document.getElementById("resultCount").textContent = `${rows.length} Ergebnis${rows.length===1?"":"se"}`;
+  document.getElementById("resultCount").textContent =
+    `${rows.length} Ergebnis${rows.length===1?"":"se"}` + (state.viewMode==="new" ? " (nur neue)" : "");
   document.getElementById("emptyState").style.display = rows.length ? "none" : "block";
 
   rows.forEach(d=>{
@@ -366,6 +375,14 @@ function wireControls(){
   });
   document.getElementById('searchBox').addEventListener('input', e=>{
     state.search = e.target.value; render();
+  });
+  document.querySelectorAll('#viewFilters .chip').forEach(btn=>{
+    btn.addEventListener('click', ()=>{
+      state.viewMode = btn.dataset.view;
+      document.querySelectorAll('#viewFilters .chip').forEach(b=>b.classList.remove('active'));
+      btn.classList.add('active');
+      render();
+    });
   });
   document.querySelectorAll('thead th').forEach(th=>{
     th.addEventListener('click', ()=>{
