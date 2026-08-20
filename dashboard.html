@@ -248,18 +248,18 @@
 
 <div class="meta-bar">
   <span id="resultCount"></span>
-  <span>sortiert nach: <span id="sortLabel" class="mono">Datum ↓</span></span>
+  <span>sortiert nach: <span id="sortLabel" class="mono">Leistung ↓</span></span>
 </div>
 
 <table>
   <thead>
     <tr>
-      <th data-key="mark">Leistung</th>
+      <th data-key="mark" class="sorted">Leistung</th>
       <th data-key="name">Athlet:in</th>
       <th data-key="country">Land</th>
       <th data-key="ageClass">Klasse</th>
       <th data-key="dob">Jahrgang</th>
-      <th data-key="date" class="sorted">Datum</th>
+      <th data-key="date">Datum</th>
       <th data-key="venue">Ort</th>
     </tr>
   </thead>
@@ -286,7 +286,7 @@ const DEMO_DATA = [
 
 let DATA = [];
 let MAX_MARK = 1;
-const state = { ages:new Set(), genders:new Set(), country:"", search:"", sortKey:"date", sortDir:-1, viewMode:"all" };
+const state = { ages:new Set(), genders:new Set(), country:"", search:"", sortKey:"mark", sortDir:-1, viewMode:"all" };
 
 function ageLabel(k){
   return {u16:"U16", u18:"U18", u20:"U20", senior:"Erwachsene"}[k] || k;
@@ -381,6 +381,19 @@ function wireControls(){
       state.viewMode = btn.dataset.view;
       document.querySelectorAll('#viewFilters .chip').forEach(b=>b.classList.remove('active'));
       btn.classList.add('active');
+
+      // Sortierung passt sich automatisch an die Ansicht an:
+      // komplette Liste -> beste Leistung zuerst, neue Leistungen -> neuestes Datum zuerst
+      if(state.viewMode === "all"){
+        state.sortKey = "mark"; state.sortDir = -1;
+      } else {
+        state.sortKey = "date"; state.sortDir = -1;
+      }
+      document.querySelectorAll('thead th').forEach(t=>t.classList.remove('sorted'));
+      document.querySelector(`thead th[data-key="${state.sortKey}"]`).classList.add('sorted');
+      document.getElementById('sortLabel').textContent =
+        {mark:"Leistung", name:"Name", country:"Land", ageClass:"Klasse", dob:"Jahrgang", date:"Datum", venue:"Ort"}[state.sortKey] + " ↓";
+
       render();
     });
   });
