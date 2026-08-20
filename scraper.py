@@ -40,7 +40,7 @@ GENDERS = {"m": "men", "w": "women"}
 
 # Wie viele Seiten der absoluten Bestenliste pro Geschlecht durchblaettert werden.
 # Jede Seite enthaelt ca. 100 Eintraege. Hoeher = mehr U18/U20-Tiefe, aber laenger.
-PAGES_TO_FETCH = 38
+PAGES_TO_FETCH = 15
 
 DATA_FILE = Path("data.json")
 PREVIOUS_FILE = Path("previous_data.json")
@@ -77,49 +77,66 @@ def classify_age(dob_raw: str, mark_date_iso: str) -> str:
     return "senior"
 
 
-async def fetch_page(context, gender: str, year: int, page_num: int):
+async def fetch_page(context, gender: str, year: int, page_num: int, retries: int = 2):
     url = (BASE_URL.format(gender=GENDERS[gender], year=year) +
            f"?regionType=world&windReading=regular&page={page_num}&bestResultsOnly=true")
-    page = await context.new_page()
-    try:
-        await page.goto(url, wait_until="networkidle", timeout=30000)
+
+    last_error = None
+    for attempt in range(1, retries + 2):  # z.B. retries=2 -> bis zu 3 Versuche
+        page = await context.new_page()
         try:
+            await page.goto(url, wait_until="networkidle", timeout=30000)
             await page.wait_for_selector("table tbody tr", timeout=15000)
-        except Exception:
-            return []  # z.B. letzte Seite ohne weitere Eintraege
 
-        rows = await page.query_selector_all("table tbody tr")
-        results = []
-        for row in rows:
-            cells = await row.query_selector_all("td")
-            if len(cells) < 9:
-                continue
-            texts = [await c.inner_text() for c in cells]
+            rows = await page.query_selector_all("table tbody tr")
+            results = []
+            for row in rows:
+                cells = await row.query_selector_all("td")
+                if len(cells) < 9:
+                    continue
+                texts = [await c.inner_text() for c in cells]
 
-            try:
-                mark = float(texts[1].strip().replace(",", "."))
-            except ValueError:
-                continue
+                try:
+                    mark = float(texts[1].strip().replace(",", "."))
+                except ValueError:
+                    continue
 
-            name = texts[3].strip().split("\n")[0]
-            dob_raw = texts[4].strip() if len(texts) > 4 else ""
-            country_match = re.search(r"\b([A-Z]{3})\b", texts[5]) if len(texts) > 5 else None
-            mark_date = normalize_date(texts[-2] if len(texts) >= 9 else texts[-1])
-            venue = texts[-3] if len(texts) >= 9 else ""
+                name = texts[3].strip().split("\n")[0]
+                dob_raw = texts[4].strip() if len(texts) > 4 else ""
+                country_match = re.search(r"\b([A-Z]{3})\b", texts[5]) if len(texts) > 5 else None
+                mark_date = normalize_date(texts[-2] if len(texts) >= 9 else texts[-1])
+                venue = texts[-3] if len(texts) >= 9 else ""
 
-            results.append({
-                "name": name,
-                "country": country_match.group(1) if country_match else "",
-                "gender": gender,
-                "ageClass": classify_age(dob_raw, mark_date),
-                "mark": mark,
-                "unit": "m",
-                "date": mark_date,
-                "venue": venue,
-            })
-        return results
-    finally:
-        await page.close()
+                results.append({
+                    "name": name,
+                    "country": country_match.group(1) if country_match else "",
+                    "gender": gender,
+                    "ageClass": classify_age(dob_raw, mark_date),
+                    "mark": mark,
+                    "unit": "m",
+                    "date": mark_date,
+                    "dob": normalize_date(dob_raw) if dob_raw else "",
+                    "venue": venue,
+                })
+            return results
+        except Exception as e:
+            last_error = e
+            if attempt <= retries:
+                print(f"    Seite {page_num} ({gender}), Versuch {attempt} fehlgeschlagen ({e}) -- erneuter Versuch...")
+                await asyncio.sleep(3)
+            continue
+        finally:
+            await page.close()
+
+    # Alle Versuche fuer diese Seite sind fehlgeschlagen.
+    if page_num == 1:
+        # Seite 1 leer/fehlgeschlagen ist KEIN normales Listenende, sondern ein
+        # echter Fehler -- laut melden statt stillschweigend 0 Eintraege zu liefern.
+        print(f"    FEHLER: Seite 1 ({gender}) konnte nach {retries + 1} Versuchen nicht geladen werden: {last_error}")
+        raise RuntimeError(f"Seite 1 fuer {gender} nicht ladbar: {last_error}")
+    else:
+        print(f"    Seite {page_num} ({gender}): vermutlich Listenende erreicht (letzter Fehler: {last_error})")
+        return []
 
 
 async def fetch_gender_toplist(browser, gender: str, year: int, pages: int):
@@ -159,8 +176,11 @@ async def run(year: int | None = None):
 
         for gender in GENDERS:
             print(f"Lade {gender} / senior (offene Liste, {PAGES_TO_FETCH} Seiten) / {year} ...")
-            rows = await fetch_gender_toplist(browser, gender, year, PAGES_TO_FETCH)
-            all_results.extend(rows)
+            try:
+                rows = await fetch_gender_toplist(browser, gender, year, PAGES_TO_FETCH)
+                all_results.extend(rows)
+            except Exception as e:
+                print(f"FEHLER: Kategorie '{gender}' komplett fehlgeschlagen, wird uebersprungen: {e}")
 
         await browser.close()
 
@@ -171,7 +191,7 @@ async def run(year: int | None = None):
             count = sum(1 for e in all_results if e["gender"] == gender and e["ageClass"] == age_class)
             print(f"  {gender} / {age_class}: {count} Eintraege")
 
-    # Diff gegen Vorwoche
+    # Vorwoche laden (wird auch fuer den Fallback unten gebraucht)
     previous = []
     if PREVIOUS_FILE.exists():
         try:
@@ -179,6 +199,32 @@ async def run(year: int | None = None):
             previous = prev_json.get("entries", prev_json)
         except Exception:
             previous = []
+
+    # Sicherheitsnetz: wenn eine ganze Kategorie 0 Eintraege hat (z.B. wegen eines
+    # technischen Aussetzers), NICHT die guten Daten von letzter Woche mit einer
+    # leeren Liste ueberschreiben -- stattdessen die Vorwochen-Eintraege fuer genau
+    # diese Kategorie uebernehmen und deutlich im Log vermerken.
+    for gender in GENDERS:
+        count = sum(1 for e in all_results if e["gender"] == gender)
+        if count == 0:
+            fallback = [e for e in previous if e.get("gender") == gender]
+            if fallback:
+                print(f"\nWARNUNG: Fuer '{gender}' wurden 0 neue Eintraege gefunden (vermutlich ein "
+                      f"technischer Aussetzer). Uebernehme stattdessen die {len(fallback)} Eintraege "
+                      f"von letzter Woche fuer '{gender}', damit keine Daten verloren gehen.")
+                for e in fallback:
+                    e["isNew"] = False
+                all_results.extend(fallback)
+            else:
+                print(f"\nWARNUNG: Fuer '{gender}' wurden 0 Eintraege gefunden UND es gibt auch keine "
+                      f"Vorwochen-Daten zum Zurueckfallen. Bitte Workflow nochmal laufen lassen.")
+
+    # Diagnose (nach Fallback): finale Aufschluesselung nach Altersklasse
+    print("\nFinale Aufschluesselung nach Altersklasse:")
+    for gender in GENDERS:
+        for age_class in ["u16", "u18", "u20", "senior"]:
+            count = sum(1 for e in all_results if e["gender"] == gender and e["ageClass"] == age_class)
+            print(f"  {gender} / {age_class}: {count} Eintraege")
 
     all_results = mark_new_entries(all_results, previous)
 
