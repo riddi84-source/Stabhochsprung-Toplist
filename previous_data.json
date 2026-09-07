@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-31 06:13 UTC",
+  "generatedAt": "2026-09-07 06:27 UTC",
   "entries": [
     {
       "name": "Armand DUPLANTIS",
@@ -23,7 +23,7 @@
       "date": "2026-08-27",
       "dob": "1999-10-20",
       "venue": "Letzigrund, Zürich (SUI)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Sondre GUTTORMSEN",
@@ -167,7 +167,7 @@
       "date": "2026-08-20",
       "dob": "2005-03-28",
       "venue": "Skwer Kuracyjny, Sopot (POL)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Mikhail SHMYKOV",
@@ -443,7 +443,7 @@
       "date": "2026-08-21",
       "dob": "2001-01-08",
       "venue": "Yelena Yelesina Stadium, Chelyabinsk (RUS)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "David HOLÝ",
@@ -587,7 +587,7 @@
       "date": "2026-08-22",
       "dob": "1990-09-21",
       "venue": "Guangzhou (CHN)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Conner MCCLURE",
@@ -611,7 +611,7 @@
       "date": "2026-08-30",
       "dob": "2006-04-08",
       "venue": "Olympiastadion, Berlin (GER)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Owen HEARD",
@@ -983,7 +983,7 @@
       "date": "2026-08-22",
       "dob": "2002-08-12",
       "venue": "Guangzhou (CHN)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Márton BÖNDÖR",
@@ -3131,7 +3131,7 @@
       "date": "2026-08-29",
       "dob": "2004-09-09",
       "venue": "Stadion Míru, Tábor (CZE)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Martin MLČOCH",
@@ -3143,7 +3143,7 @@
       "date": "2026-08-29",
       "dob": "2006",
       "venue": "Stadion Míru, Tábor (CZE)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Paweł POŚPIECH",
@@ -3350,6 +3350,18 @@
       "isNew": false
     },
     {
+      "name": "Felix STEENE",
+      "country": "SWE",
+      "gender": "m",
+      "ageClass": "senior",
+      "mark": 5.32,
+      "unit": "m",
+      "date": "2026-08-30",
+      "dob": "2004-01-15",
+      "venue": "Olympiastadion, Helsinki (FIN)",
+      "isNew": true
+    },
+    {
       "name": "Adam BLUE",
       "country": "USA",
       "gender": "m",
@@ -3407,18 +3419,6 @@
       "date": "2026-07-02",
       "dob": "2009-08-03",
       "venue": "Olympic Sports Center, Huangshi (CHN)",
-      "isNew": false
-    },
-    {
-      "name": "Felix STEENE",
-      "country": "SWE",
-      "gender": "m",
-      "ageClass": "senior",
-      "mark": 5.31,
-      "unit": "m",
-      "date": "2026-08-15",
-      "dob": "2004-01-15",
-      "venue": "Karlskrona Idrottsplats, Karlskrona (SWE)",
       "isNew": false
     },
     {
@@ -7943,7 +7943,7 @@
       "date": "2026-08-22",
       "dob": "2000-07-20",
       "venue": "Seibu Ryokuchi Park Athletics Stadium, Kanazawa (JPN)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Kyle HATLER",
@@ -9899,7 +9899,7 @@
       "date": "2026-08-22",
       "dob": "2006-12-26",
       "venue": "Prefectural Yamanokuchi Athletics Stadium, Miyakonojo (JPN)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Rambeer SINGH",
@@ -9911,7 +9911,7 @@
       "date": "2026-08-25",
       "dob": "1996-06-30",
       "venue": "Tau Devi Lal Stadium, Panchkula (IND)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Caleb KING",
@@ -12431,7 +12431,7 @@
       "date": "2026-08-22",
       "dob": "2004-11-03",
       "venue": "Prefectural Yamanokuchi Athletics Stadium, Miyakonojo (JPN)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Andrey NIKITIN",
@@ -12443,7 +12443,7 @@
       "date": "2026-08-22",
       "dob": "2002-08-21",
       "venue": "Yelena Yelesina Stadium, Chelyabinsk (RUS)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": ". LAKSHAY",
@@ -12455,7 +12455,7 @@
       "date": "2026-08-25",
       "dob": "2001-10-17",
       "venue": "Tau Devi Lal Stadium, Panchkula (IND)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Antonín TVRZNÍK",
@@ -12467,7 +12467,7 @@
       "date": "2026-08-29",
       "dob": "2004",
       "venue": "Stadion Míru, Tábor (CZE)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Diego CONSTANTINO",
@@ -15899,7 +15899,7 @@
       "date": "2026-08-22",
       "dob": "1998-07-19",
       "venue": "Azuma Stadium, Fukushima (JPN)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Harukaze TSUKIMATA",
@@ -15911,7 +15911,7 @@
       "date": "2026-08-22",
       "dob": "2006-03-01",
       "venue": "Prefectural Yamanokuchi Athletics Stadium, Miyakonojo (JPN)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Ashish SHARMA",
@@ -15923,7 +15923,7 @@
       "date": "2026-08-25",
       "dob": "2006-08-14",
       "venue": "Tau Devi Lal Stadium, Panchkula (IND)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Botond BÁNHÁZI",
@@ -15935,7 +15935,7 @@
       "date": "2026-08-30",
       "dob": "2003-11-22",
       "venue": "Lantos Mihály Sportközpont, Budapest (HUN)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "André FAESEN",
@@ -18026,6 +18026,18 @@
       "isNew": false
     },
     {
+      "name": "Hana MOLL",
+      "country": "USA",
+      "gender": "w",
+      "ageClass": "senior",
+      "mark": 4.91,
+      "unit": "m",
+      "date": "2026-09-05",
+      "dob": "2005-01-31",
+      "venue": "Boudewijnstadion, Bruxelles (BEL)",
+      "isNew": true
+    },
+    {
       "name": "Sandi MORRIS",
       "country": "USA",
       "gender": "w",
@@ -18036,18 +18048,6 @@
       "dob": "1992-07-08",
       "venue": "Icahn Stadium, New York, NY (USA)",
       "isNew": false
-    },
-    {
-      "name": "Hana MOLL",
-      "country": "USA",
-      "gender": "w",
-      "ageClass": "senior",
-      "mark": 4.9,
-      "unit": "m",
-      "date": "2026-08-26",
-      "dob": "2005-01-31",
-      "venue": "Haputbahnhof, Zürich (SUI)",
-      "isNew": true
     },
     {
       "name": "Molly CAUDERY",
@@ -18071,7 +18071,7 @@
       "date": "2026-08-26",
       "dob": "1997-10-09",
       "venue": "Haputbahnhof, Zürich (SUI)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Amanda MOLL",
@@ -20510,6 +20510,18 @@
       "isNew": false
     },
     {
+      "name": "Emilia KUSY",
+      "country": "POL",
+      "gender": "w",
+      "ageClass": "senior",
+      "mark": 4.21,
+      "unit": "m",
+      "date": "2026-08-29",
+      "dob": "1998-12-09",
+      "venue": "Plac Jasne Błonia, Szczecin (POL)",
+      "isNew": true
+    },
+    {
       "name": "Veronika ŠEBÁKOVÁ",
       "country": "CZE",
       "gender": "w",
@@ -20567,18 +20579,6 @@
       "date": "2026-02-27",
       "dob": "2006",
       "venue": "Sports Performance Center, Lubbock, TX (USA) (i)",
-      "isNew": false
-    },
-    {
-      "name": "Emilia KUSY",
-      "country": "POL",
-      "gender": "w",
-      "ageClass": "senior",
-      "mark": 4.2,
-      "unit": "m",
-      "date": "2026-02-28",
-      "dob": "1998-12-09",
-      "venue": "Kujawsko-Pomorska Arena, Toruń (POL) (i)",
       "isNew": false
     },
     {
@@ -24647,7 +24647,7 @@
       "date": "2026-08-30",
       "dob": "2007",
       "venue": "Stadion Míru, Tábor (CZE)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Kelly DE JONG",
@@ -30407,7 +30407,7 @@
       "date": "2026-08-23",
       "dob": "2008",
       "venue": "Stade du Parc de la Dodaine, Nivelles (BEL)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Reis JOHNSON",
@@ -31979,7 +31979,7 @@
       "date": "2026-08-23",
       "dob": "2007-07-24",
       "venue": "Seibu Ryokuchi Park Athletics Stadium, Kanazawa (JPN)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Alexis PHILLIPS",
