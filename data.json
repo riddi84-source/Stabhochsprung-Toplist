@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-12 15:12 UTC",
+  "generatedAt": "2026-10-19 12:54 UTC",
   "entries": [
     {
       "name": "Armand DUPLANTIS",
@@ -3911,7 +3911,7 @@
       "date": "2026-10-07",
       "dob": "2005-07-31",
       "venue": "The Danfeng Gate of the Daming Palace, Xi'an (CHN)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Axel ROGÖ",
@@ -7331,7 +7331,7 @@
       "date": "2026-09-22",
       "dob": "2006-10-11",
       "venue": "Banqiao Stadium, New Taipei City (TPE)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Michi TAKAHASHI",
@@ -7367,7 +7367,7 @@
       "date": "2026-10-08",
       "dob": "1996-06-30",
       "venue": "Jawaharlal Nehru Stadium, New Delhi (IND)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Travis GREENFIELD",
@@ -9878,6 +9878,18 @@
       "isNew": false
     },
     {
+      "name": "Mark ASMUS",
+      "country": "RUS",
+      "gender": "m",
+      "ageClass": "u20",
+      "mark": 5.0,
+      "unit": "m",
+      "date": "2026-08-08",
+      "dob": "2007-06-22",
+      "venue": "Dinamo Stadium, Krasnodar (RUS)",
+      "isNew": true
+    },
+    {
       "name": "Satoaki SUGIMOTO",
       "country": "JPN",
       "gender": "m",
@@ -9960,6 +9972,18 @@
       "dob": "2004-04-30",
       "venue": "Stade d'Octodure, Martigny (SUI)",
       "isNew": false
+    },
+    {
+      "name": "Ashish SHARMA",
+      "country": "IND",
+      "gender": "m",
+      "ageClass": "senior",
+      "mark": 5.0,
+      "unit": "m",
+      "date": "2026-10-16",
+      "dob": "2006-08-14",
+      "venue": "Sawai Mansingh Stadium,, Jaipur (IND)",
+      "isNew": true
     },
     {
       "name": "Caleb KING",
@@ -10680,6 +10704,18 @@
       "dob": "2007-02-06",
       "venue": "Keuruun keskuskenttä, Keuruu (FIN)",
       "isNew": false
+    },
+    {
+      "name": "Ethan RIHOUEY",
+      "country": "FRA",
+      "gender": "m",
+      "ageClass": "senior",
+      "mark": 4.95,
+      "unit": "m",
+      "date": "2026-06-27",
+      "dob": "2004-08-30",
+      "venue": "Stade Helitas, Caen (FRA)",
+      "isNew": true
     },
     {
       "name": "Antoine RAYMOND",
@@ -12278,18 +12314,6 @@
       "isNew": false
     },
     {
-      "name": "Ethan RIHOUEY",
-      "country": "FRA",
-      "gender": "m",
-      "ageClass": "senior",
-      "mark": 4.9,
-      "unit": "m",
-      "date": "2026-07-12",
-      "dob": "2004-08-30",
-      "venue": "Stade Jean Leroi, Blois (FRA)",
-      "isNew": false
-    },
-    {
       "name": "Enzo MARCENY",
       "country": "FRA",
       "gender": "m",
@@ -12552,6 +12576,30 @@
       "dob": "2007-12-30",
       "venue": "Gion Stadium, Sagamihara (JPN)",
       "isNew": false
+    },
+    {
+      "name": "Banti NATH",
+      "country": "IND",
+      "gender": "m",
+      "ageClass": "senior",
+      "mark": 4.9,
+      "unit": "m",
+      "date": "2026-10-16",
+      "dob": "2005-04-03",
+      "venue": "Sawai Mansingh Stadium,, Jaipur (IND)",
+      "isNew": true
+    },
+    {
+      "name": "Takumi ARAKI",
+      "country": "JPN",
+      "gender": "m",
+      "ageClass": "senior",
+      "mark": 4.9,
+      "unit": "m",
+      "date": "2026-10-17",
+      "dob": "2005-08-26",
+      "venue": "Yanmar Stadium Nagai, Osaka (JPN)",
+      "isNew": true
     },
     {
       "name": "Diego CONSTANTINO",
@@ -13490,6 +13538,18 @@
       "isNew": false
     },
     {
+      "name": "Hugo CADOT",
+      "country": "FRA",
+      "gender": "m",
+      "ageClass": "u18",
+      "mark": 4.85,
+      "unit": "m",
+      "date": "2026-06-27",
+      "dob": "2009-01-31",
+      "venue": "Stade Helitas, Caen (FRA)",
+      "isNew": true
+    },
+    {
       "name": "Martin GAUDILLERE",
       "country": "FRA",
       "gender": "m",
@@ -14159,7 +14219,7 @@
       "date": "2026-09-21",
       "dob": "2009-11-19",
       "venue": "Banqiao Stadium, New Taipei City (TPE)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Parker SAMUELSON",
@@ -14915,18 +14975,6 @@
       "date": "2026-04-03",
       "dob": "",
       "venue": "Anderson University Athletic Campus, Anderson, SC (USA)",
-      "isNew": false
-    },
-    {
-      "name": "Takumi ARAKI",
-      "country": "JPN",
-      "gender": "m",
-      "ageClass": "senior",
-      "mark": 4.8,
-      "unit": "m",
-      "date": "2026-04-04",
-      "dob": "2005-08-26",
-      "venue": "Takebishi Stadium, Kyoto (JPN)",
       "isNew": false
     },
     {
@@ -15722,18 +15770,6 @@
       "isNew": false
     },
     {
-      "name": "Mark ASMUS",
-      "country": "RUS",
-      "gender": "m",
-      "ageClass": "u20",
-      "mark": 4.8,
-      "unit": "m",
-      "date": "2026-06-27",
-      "dob": "2007-06-22",
-      "venue": "Central Stadium, Kazan (RUS)",
-      "isNew": false
-    },
-    {
       "name": "Aris-Nikolaos PERISTERIS",
       "country": "GRE",
       "gender": "m",
@@ -16010,18 +16046,6 @@
       "isNew": false
     },
     {
-      "name": "Ashish SHARMA",
-      "country": "IND",
-      "gender": "m",
-      "ageClass": "senior",
-      "mark": 4.8,
-      "unit": "m",
-      "date": "2026-08-25",
-      "dob": "2006-08-14",
-      "venue": "Tau Devi Lal Stadium, Panchkula (IND)",
-      "isNew": false
-    },
-    {
       "name": "Botond BÁNHÁZI",
       "country": "HUN",
       "gender": "m",
@@ -16127,7 +16151,7 @@
       "date": "2026-10-11",
       "dob": "2002-09-12",
       "venue": "Nihon University Stadium, Tokyo (JPN)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "André FAESEN",
@@ -17435,7 +17459,7 @@
       "date": "2026-09-15",
       "dob": "2010-02-22",
       "venue": "Taipei Municipal Stadium, Taipei City (TPE)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Karl NESTOR",
@@ -17975,30 +17999,6 @@
       "date": "2026-01-24",
       "dob": "2008-10-22",
       "venue": "IFU Arena, Uppsala (SWE) (i)",
-      "isNew": false
-    },
-    {
-      "name": "Logan TURNEY",
-      "country": "USA",
-      "gender": "m",
-      "ageClass": "senior",
-      "mark": 4.71,
-      "unit": "m",
-      "date": "2026-01-30",
-      "dob": "",
-      "venue": "UW-Whitewater-Kachel FH, Whitewater, WI (USA) (i)",
-      "isNew": false
-    },
-    {
-      "name": "Valentin CHANTEREAU",
-      "country": "FRA",
-      "gender": "m",
-      "ageClass": "u18",
-      "mark": 4.71,
-      "unit": "m",
-      "date": "2026-02-08",
-      "dob": "2009-02-02",
-      "venue": "Stade Couvert Stephane Diagana, Eaubonne (FRA) (i)",
       "isNew": false
     },
     {
@@ -21398,6 +21398,18 @@
       "isNew": false
     },
     {
+      "name": "Nitika AKARE",
+      "country": "IND",
+      "gender": "w",
+      "ageClass": "senior",
+      "mark": 4.15,
+      "unit": "m",
+      "date": "2026-10-17",
+      "dob": "2005-12-31",
+      "venue": "Sawai Mansingh Stadium,, Jaipur (IND)",
+      "isNew": true
+    },
+    {
       "name": "Rena TANAKA",
       "country": "JPN",
       "gender": "w",
@@ -21947,18 +21959,6 @@
       "date": "2026-05-21",
       "dob": "",
       "venue": "Veterans Memorial Stadium, La Crosse, WI (USA)",
-      "isNew": false
-    },
-    {
-      "name": "Nitika AKARE",
-      "country": "IND",
-      "gender": "w",
-      "ageClass": "senior",
-      "mark": 4.1,
-      "unit": "m",
-      "date": "2026-05-23",
-      "dob": "2005-12-31",
-      "venue": "Birsa Munda Foot Ball Stadium, Morabadi, Ranchi (IND)",
       "isNew": false
     },
     {
@@ -23195,7 +23195,7 @@
       "date": "2026-09-21",
       "dob": "2002-10-26",
       "venue": "Banqiao Stadium, New Taipei City (TPE)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Kristýna WOWROVÁ",
@@ -29015,7 +29015,7 @@
       "date": "2026-10-11",
       "dob": "2007-04-03",
       "venue": "Nihon University Stadium, Tokyo (JPN)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Caroline WEEMS",
@@ -32066,6 +32066,18 @@
       "isNew": false
     },
     {
+      "name": "Ayami SUZUKI",
+      "country": "JPN",
+      "gender": "w",
+      "ageClass": "senior",
+      "mark": 3.7,
+      "unit": "m",
+      "date": "2026-10-16",
+      "dob": "2005-04-13",
+      "venue": "Yanmar Stadium Nagai, Osaka (JPN)",
+      "isNew": true
+    },
+    {
       "name": "Alexis PHILLIPS",
       "country": "USA",
       "gender": "w",
@@ -33635,7 +33647,7 @@
       "date": "2026-09-13",
       "dob": "2010-07-29",
       "venue": "Taipei Municipal Stadium, Taipei City (TPE)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Ava ALLEN",
@@ -35150,18 +35162,6 @@
       "isNew": false
     },
     {
-      "name": "Ayami SUZUKI",
-      "country": "JPN",
-      "gender": "w",
-      "ageClass": "senior",
-      "mark": 3.6,
-      "unit": "m",
-      "date": "2026-05-16",
-      "dob": "2005-04-13",
-      "venue": "Yanmar Stadium Nagai, Osaka (JPN)",
-      "isNew": false
-    },
-    {
       "name": "Daria FUNKE",
       "country": "GER",
       "gender": "w",
@@ -35783,7 +35783,7 @@
       "date": "2026-10-03",
       "dob": "1998-06-09",
       "venue": "Hoshigadai Stadium, Tajimi (JPN)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "M. AKSHAYA",
@@ -35795,7 +35795,7 @@
       "date": "2026-10-10",
       "dob": "2003-04-21",
       "venue": "Jawaharlal Nehru Stadium, New Delhi (IND)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Elisabete TAVARES ANSEL",
