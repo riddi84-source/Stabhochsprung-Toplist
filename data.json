@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09 15:59 UTC",
+  "generatedAt": "2026-11-16 15:33 UTC",
   "entries": [
     {
       "name": "Armand DUPLANTIS",
@@ -5894,6 +5894,18 @@
       "isNew": false
     },
     {
+      "name": "Ilya DOLBIN",
+      "country": "RUS",
+      "gender": "m",
+      "ageClass": "senior",
+      "mark": 5.15,
+      "unit": "m",
+      "date": "2026-05-23",
+      "dob": "2000-02-27",
+      "venue": "Slava Metreveli Stadium, Sochi (RUS)",
+      "isNew": true
+    },
+    {
       "name": "Qizhao LI",
       "country": "CHN",
       "gender": "m",
@@ -5927,18 +5939,6 @@
       "date": "2026-06-06",
       "dob": "2002-04-21",
       "venue": "Putbosstadion, Oordegem (BEL)",
-      "isNew": false
-    },
-    {
-      "name": "Ilya DOLBIN",
-      "country": "RUS",
-      "gender": "m",
-      "ageClass": "senior",
-      "mark": 5.15,
-      "unit": "m",
-      "date": "2026-06-19",
-      "dob": "2000-02-27",
-      "venue": "Olympic Stadium, Cheboksary (RUS)",
       "isNew": false
     },
     {
@@ -8132,10 +8132,10 @@
       "ageClass": "senior",
       "mark": 5.03,
       "unit": "m",
-      "date": "2026-03-29",
+      "date": "2026-03-28",
       "dob": "",
       "venue": "Veterans Memorial Stadium, Clovis, CA (USA)",
-      "isNew": false
+      "isNew": true
     },
     {
       "name": "Gavin HANES",
@@ -10486,7 +10486,7 @@
       "unit": "m",
       "date": "2026-03-27",
       "dob": "",
-      "venue": "Saint Louis University Stadium, Saint Louis, MO (USA)",
+      "venue": "Saint Louis University Stadium, St. Louis, MO (USA)",
       "isNew": false
     },
     {
@@ -12647,7 +12647,7 @@
       "date": "2026-10-31",
       "dob": "2005-09-01",
       "venue": "Nihon University Stadium, Tokyo (JPN)",
-      "isNew": true
+      "isNew": false
     },
     {
       "name": "Diego CONSTANTINO",
@@ -20222,6 +20222,18 @@
       "isNew": false
     },
     {
+      "name": "Polina VARAVVA",
+      "country": "RUS",
+      "gender": "w",
+      "ageClass": "u20",
+      "mark": 4.25,
+      "unit": "m",
+      "date": "2026-05-22",
+      "dob": "2007-01-29",
+      "venue": "Slava Metreveli Stadium, Sochi (RUS)",
+      "isNew": true
+    },
+    {
       "name": "Pascale STÖCKLIN",
       "country": "SUI",
       "gender": "w",
@@ -21254,6 +21266,18 @@
       "isNew": false
     },
     {
+      "name": "Sofiya DOLZHIKOVA",
+      "country": "RUS",
+      "gender": "w",
+      "ageClass": "senior",
+      "mark": 4.15,
+      "unit": "m",
+      "date": "2026-05-22",
+      "dob": "2006-03-19",
+      "venue": "Slava Metreveli Stadium, Sochi (RUS)",
+      "isNew": true
+    },
+    {
       "name": "Milena POSTIKA",
       "country": "GRE",
       "gender": "w",
@@ -21347,18 +21371,6 @@
       "date": "2026-07-05",
       "dob": "2005-03-21",
       "venue": "Piazza Unità d'Italia, Novellara (ITA)",
-      "isNew": false
-    },
-    {
-      "name": "Sofiya DOLZHIKOVA",
-      "country": "RUS",
-      "gender": "w",
-      "ageClass": "senior",
-      "mark": 4.15,
-      "unit": "m",
-      "date": "2026-07-10",
-      "dob": "2006-03-19",
-      "venue": "SGAFKST Arena, Smolensk (RUS)",
       "isNew": false
     },
     {
@@ -21851,18 +21863,6 @@
       "date": "2026-03-07",
       "dob": "",
       "venue": "Pauley Track & Field Complex UC Santa Barbara, Goleta, CA (USA)",
-      "isNew": false
-    },
-    {
-      "name": "Polina VARAVVA",
-      "country": "RUS",
-      "gender": "w",
-      "ageClass": "u20",
-      "mark": 4.1,
-      "unit": "m",
-      "date": "2026-03-08",
-      "dob": "2007-01-29",
-      "venue": "MGSU Sports Arena, Moskva (RUS) (i)",
       "isNew": false
     },
     {
@@ -25346,6 +25346,18 @@
       "isNew": false
     },
     {
+      "name": "Ellen ANDTFOLK",
+      "country": "FIN",
+      "gender": "w",
+      "ageClass": "u18",
+      "mark": 3.91,
+      "unit": "m",
+      "date": "2026-08-09",
+      "dob": "2009-04-04",
+      "venue": "Urheilupuisto, Hyvinkää (FIN)",
+      "isNew": true
+    },
+    {
       "name": "Chuki BIRDA",
       "country": "IND",
       "gender": "w",
@@ -26026,18 +26038,6 @@
       "unit": "m",
       "date": "2026-07-19",
       "dob": "2010-03-07",
-      "venue": "Stadio Guidobaldi, Rieti (ITA)",
-      "isNew": false
-    },
-    {
-      "name": "Ellen ANDTFOLK",
-      "country": "FIN",
-      "gender": "w",
-      "ageClass": "u18",
-      "mark": 3.9,
-      "unit": "m",
-      "date": "2026-07-19",
-      "dob": "2009-04-04",
       "venue": "Stadio Guidobaldi, Rieti (ITA)",
       "isNew": false
     },
@@ -27012,6 +27012,18 @@
       "dob": "",
       "venue": "Veterans Memorial Stadium, La Crosse, WI (USA)",
       "isNew": false
+    },
+    {
+      "name": "Yelizaveta GLADKOVA",
+      "country": "RUS",
+      "gender": "w",
+      "ageClass": "senior",
+      "mark": 3.85,
+      "unit": "m",
+      "date": "2026-05-22",
+      "dob": "2005-10-25",
+      "venue": "Slava Metreveli Stadium, Sochi (RUS)",
+      "isNew": true
     },
     {
       "name": "Amélie LIENHARD",
@@ -31190,18 +31202,6 @@
       "isNew": false
     },
     {
-      "name": "Yelizaveta GLADKOVA",
-      "country": "RUS",
-      "gender": "w",
-      "ageClass": "senior",
-      "mark": 3.7,
-      "unit": "m",
-      "date": "2026-02-14",
-      "dob": "2005-10-25",
-      "venue": "VGAFK Arena, Volgograd (RUS) (i)",
-      "isNew": false
-    },
-    {
       "name": "Brooklyn KONDRITZ",
       "country": "USA",
       "gender": "w",
@@ -31754,6 +31754,18 @@
       "isNew": false
     },
     {
+      "name": "Polina PECHONKINA",
+      "country": "RUS",
+      "gender": "w",
+      "ageClass": "u18",
+      "mark": 3.7,
+      "unit": "m",
+      "date": "2026-06-18",
+      "dob": "2009-04-30",
+      "venue": "Kalininets Stadium, Yekaterinburg (RUS)",
+      "isNew": true
+    },
+    {
       "name": "Maria MAHLO",
       "country": "GER",
       "gender": "w",
@@ -32124,6 +32136,30 @@
       "dob": "2005-04-13",
       "venue": "Yanmar Stadium Nagai, Osaka (JPN)",
       "isNew": false
+    },
+    {
+      "name": "Eun-ji LIM",
+      "country": "KOR",
+      "gender": "w",
+      "ageClass": "senior",
+      "mark": 3.7,
+      "unit": "m",
+      "date": "2026-10-18",
+      "dob": "1989-04-02",
+      "venue": "Jeju Seogwipo Kangchanghak Stadium, Jeju (KOR)",
+      "isNew": true
+    },
+    {
+      "name": "Liu Yu CHIEH",
+      "country": "TPE",
+      "gender": "w",
+      "ageClass": "u18",
+      "mark": 3.7,
+      "unit": "m",
+      "date": "2026-11-04",
+      "dob": "2010-07-29",
+      "venue": "Banqiao Stadium, New Taipei City (TPE)",
+      "isNew": true
     },
     {
       "name": "Alexis PHILLIPS",
@@ -33674,6 +33710,18 @@
       "isNew": false
     },
     {
+      "name": "Ulyana TSIPAN",
+      "country": "RUS",
+      "gender": "w",
+      "ageClass": "u20",
+      "mark": 3.65,
+      "unit": "m",
+      "date": "2026-08-07",
+      "dob": "2007-05-13",
+      "venue": "Stadion Irnitu, Irkutsk (RUS)",
+      "isNew": true
+    },
+    {
       "name": "Nozomi ISHIBASHI",
       "country": "JPN",
       "gender": "w",
@@ -33695,18 +33743,6 @@
       "date": "2026-08-09",
       "dob": "2009",
       "venue": "Canada Games Stadium, Regina (CAN)",
-      "isNew": false
-    },
-    {
-      "name": "Liu Yu CHIEH",
-      "country": "TPE",
-      "gender": "w",
-      "ageClass": "u18",
-      "mark": 3.65,
-      "unit": "m",
-      "date": "2026-09-13",
-      "dob": "2010-07-29",
-      "venue": "Taipei Municipal Stadium, Taipei City (TPE)",
       "isNew": false
     },
     {
@@ -35963,42 +35999,6 @@
       "date": "2026-02-24",
       "dob": "",
       "venue": "CrossPlex Athletic Facility, Birmingham, AL (USA) (i)",
-      "isNew": false
-    },
-    {
-      "name": "Grace MACHARG",
-      "country": "USA",
-      "gender": "w",
-      "ageClass": "senior",
-      "mark": 3.58,
-      "unit": "m",
-      "date": "2026-02-28",
-      "dob": "",
-      "venue": "Holt Arena, Pocatello, ID (USA) (i)",
-      "isNew": false
-    },
-    {
-      "name": "Raynah CHENG",
-      "country": "USA",
-      "gender": "w",
-      "ageClass": "senior",
-      "mark": 3.58,
-      "unit": "m",
-      "date": "2026-04-10",
-      "dob": "",
-      "venue": "Clyde Hart Track & Field Stadium, Waco, TX (USA)",
-      "isNew": false
-    },
-    {
-      "name": "Kayla TASSARA",
-      "country": "USA",
-      "gender": "w",
-      "ageClass": "senior",
-      "mark": 3.58,
-      "unit": "m",
-      "date": "2026-04-10",
-      "dob": "",
-      "venue": "Aztrack Sports Deck, San Diego, CA (USA)",
       "isNew": false
     }
   ]
